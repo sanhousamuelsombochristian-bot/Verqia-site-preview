@@ -1,0 +1,1259 @@
+{
+  "common": {
+    "siteName": "VERQIA PILOT",
+    "skip": "Aller au contenu",
+    "placeholder": "",
+    "validate": "",
+    "fakeData": "Données de démonstration",
+    "toSupply": "",
+    "quotePending": "",
+    "mediaImage": "Aperçu de l’image",
+    "mediaVideo": "Aperçu de la vidéo",
+    "locked": "Disponible avec {plan}",
+    "completeLogo": "Logo VERQIA",
+    "newTab": "(nouvel onglet)",
+    "captionsToComplete": "Sous-titres optionnels",
+    "frenchCaptions": "Français",
+    "englishCaptions": "Anglais"
+  },
+  "kit": {
+    "title": "Kit d’interface",
+    "intro": "Aperçu des composants de base VERQIA. Page interne de test, exclue du sitemap.",
+    "button": "Bouton principal",
+    "secondary": "Action secondaire",
+    "badge": "Badges",
+    "sectionLabel": "Fondations visuelles",
+    "accent": "Accent éditorial",
+    "card": "Carte numérotée",
+    "accordion": "Accordéon",
+    "stepper": "Étapes",
+    "locked": "Fonction verrouillée",
+    "media": "Médias",
+    "video": "Lecteur vidéo",
+    "quote": "Citation éditoriale",
+    "steps": [
+      "Centraliser",
+      "Comprendre",
+      "Anticiper"
+    ],
+    "faqTitle": "Comment la démonstration fonctionne-t-elle ?",
+    "faqBody": "Les démonstrations de cette phase utilisent uniquement un état local et des données fictives étiquetées.",
+    "placeholder": "Exemple de contenu éditorial.",
+    "themeLight": "Activer le thème clair",
+    "themeDark": "Activer le thème sombre"
+  },
+  "routes": {
+    "home": "Accueil",
+    "product": "Produit",
+    "modules": "Modules",
+    "engine": "Moteur décisionnel",
+    "demo": "Démonstration",
+    "solutions": "Solutions",
+    "pricing": "Tarifs",
+    "resources": "Ressources",
+    "faq": "FAQ",
+    "pilot": "Programme pilote",
+    "about": "À propos",
+    "contact": "Contact",
+    "security": "Sécurité et confiance",
+    "legal": "Informations légales"
+  },
+  "nav": {
+    "product": "Produit",
+    "offers": "Offres",
+    "engine": "Moteur décisionnel",
+    "faq": "FAQ",
+    "solutions": "Solutions",
+    "pricing": "Tarifs",
+    "resources": "Ressources",
+    "about": "À propos",
+    "requestPilot": "Demander un pilote",
+    "discoverFree": "Explorer la maquette conceptuelle",
+    "discoverFreeShort": "Voir la maquette",
+    "contactUs": "Nous contacter",
+    "productMenuEyebrow": "PRODUIT",
+    "productMenuTitle": "Périmètre produit envisagé, en cours de validation.",
+    "viewModules": "Voir les 10 modules envisagés",
+    "offersMenuEyebrow": "FORMULES",
+    "offersMenuTitle": "Des formules de référence, à confirmer.",
+    "priceDisclaimer": "Tarifs, quotas et périmètres indicatifs, non commercialisés à ce stade.",
+    "viewOffers": "Consulter l’état des formules",
+    "engineMenuEyebrow": "DÉCISIONS",
+    "engineMenuTitle": "Une logique décisionnelle envisagée.",
+    "viewEngine": "Découvrir le moteur",
+    "modules": "Modules",
+    "demo": "Démonstration",
+    "pilot": "Programme pilote",
+    "guides": "Guides",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "primary": "Navigation principale",
+    "language": "Langue",
+    "theme": "Thème",
+    "themeLight": "Activer le thème clair",
+    "themeDark": "Activer le thème sombre",
+    "openSubmenu": "Ouvrir le sous-menu {label}",
+    "closeSubmenu": "Fermer le sous-menu {label}",
+    "logoMissing": "Logo à fournir",
+    "brandName": "VERQIA PILOT",
+    "dropdown": {
+      "modules": "Périmètre fonctionnel envisagé; pas de service opérationnel disponible à ce stade.",
+      "engine": "Découvrez le concept du moteur; règles à documenter et à valider.",
+      "demo": "Explorez une maquette avec des données fictives.",
+      "faq": "Les réponses aux questions les plus fréquentes.",
+      "pilot": "Découvrez les modalités du programme pilote.",
+      "guides": "Guides et ressources pour découvrir VERQIA."
+    },
+    "login": "Connexion",
+    "signup": "Créer un compte",
+    "offersUnavailableTitle": "Aucune formule commerciale n’est publiée.",
+    "offersUnavailableDescription": "Les hypothèses de formules, tarifs et quotas restent internes et doivent être validées avant toute offre."
+  },
+  "footer": {
+    "signature": "La maîtrise financière. L’intelligence décisionnelle. Le contrôle opérationnel.",
+    "product": "Produit",
+    "offers": "Offres",
+    "company": "Entreprise",
+    "legal": "Légal",
+    "productHome": "Vue d’ensemble",
+    "modules": "Modules",
+    "engine": "Moteur décisionnel",
+    "demo": "Démonstration",
+    "pricing": "Tarifs",
+    "solutions": "Solutions",
+    "about": "À propos",
+    "contact": "Contact",
+    "legalNotice": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales d’utilisation",
+    "salesTerms": "Conditions générales de vente",
+    "cookies": "Politique de cookies",
+    "security": "Sécurité et confiance",
+    "manageCookies": "Gérer mes cookies",
+    "bankNotice": "VERQIA n’est pas une banque ou un établissement financier.",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "calendly": "Calendly",
+    "newTab": "(nouvel onglet)",
+    "legalInfo": "Informations légales"
+  },
+  "quotes": {
+    "1": "La trésorerie ne se subit pas. Elle se pilote.",
+    "2": "Une facture en attente est une information. Une échéance maîtrisée est une décision.",
+    "3": "Comprendre ses créances, c’est mieux préparer ses encaissements.",
+    "4": "La bonne décision commence par une information fiable.",
+    "5": "Votre entreprise mérite mieux qu’un suivi dispersé."
+  },
+  "modules": {
+    "overview": {
+      "title": "Vue d’ensemble",
+      "description": "Maquette conceptuelle de la vue « à recevoir » et des statuts envisagés.",
+      "access": "Aperçu fictif — aucune application opérationnelle."
+    },
+    "treasury": {
+      "title": "Trésorerie",
+      "description": "Indicateurs simples d’encaissement envisagés dans le périmètre initial."
+    },
+    "invoices": {
+      "title": "Factures",
+      "description": "Centralisation et suivi des factures et échéances envisagés pour le périmètre initial."
+    },
+    "clients": {
+      "title": "Clients",
+      "description": "Import ou saisie des clients, envisagés dans le périmètre initial.",
+      "access": "Périmètre de référence envisagé pour FREE et STARTER."
+    },
+    "collections": {
+      "title": "Recouvrement",
+      "description": "Liste prioritaire, modèles de messages et historique envisagés; aucun envoi automatisé annoncé.",
+      "access": "Répartition tarifaire envisagée entre STARTER et BUSINESS."
+    },
+    "risk": {
+      "title": "Risque",
+      "description": "Analyse des situations à risque envisagée pour une évolution ultérieure; non disponible à ce stade."
+    },
+    "forecasts": {
+      "title": "Prévisions",
+      "description": "Prévisions d’encaissement envisagées après validation; non disponibles dans le périmètre initial."
+    },
+    "payments": {
+      "title": "Paiements",
+      "description": "Enregistrement des paiements partiels ou complets envisagé; aucune intégration de paiement annoncée."
+    },
+    "automations": {
+      "title": "Automatisations",
+      "description": "Automatisation envisagée après validation du produit; aucun envoi automatique annoncé.",
+      "access": "Évolution tarifaire envisagée, non disponible à ce stade."
+    },
+    "events": {
+      "title": "Événements",
+      "description": "Historique des relances, réponses, promesses et paiements envisagé dans le périmètre initial."
+    }
+  },
+  "contact": {
+    "title": "Disponibilité des canaux de contact.",
+    "metaDescription": "Consultez la disponibilité des canaux de contact officiels de VERQIA.",
+    "eyebrow": "Contact",
+    "channelsHeading": "État des canaux",
+    "channelsMissing": "Aucun canal de contact direct n’est publié sur ce site.",
+    "channelsMissingBadge": "",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "email": "E-mail",
+      "calendly": "Calendly"
+    },
+    "newTab": "(nouvel onglet)",
+    "reassuranceHeading": "",
+    "responseTarget": "",
+    "pilotOffer": "",
+    "titleLead": "Canaux de contact",
+    "titleAccent": "à confirmer.",
+    "whatsappPrefill": "Bonjour, je souhaite en savoir plus sur VERQIA PILOT.",
+    "sourceLine": "Source : {source}",
+    "emailSubject": "Demande d’informations sur VERQIA",
+    "emailSubjectWithSource": "Demande VERQIA — {source}",
+    "emailPrefill": "Bonjour,\n\nJe souhaite en savoir plus sur VERQIA PILOT.",
+    "floatingWhatsapp": "Contacter VERQIA sur WhatsApp"
+  },
+  "home": {
+    "hero": {
+      "metadataTitle": "VERQIA PILOT — Pilotage du cycle d’encaissement",
+      "eyebrow": "PILOTAGE DU CYCLE D’ENCAISSEMENT",
+      "titleLine1": "Une facture émise",
+      "titleLine2": "n’est pas encore",
+      "titleAccent": "de la trésorerie.",
+      "subtitle": "VERQIA PILOT est conçu pour aider les PME à organiser le suivi de leurs créances, de leurs échéances et des actions de recouvrement.",
+      "primaryCta": "Découvrir le périmètre produit",
+      "secondaryCta": "Explorer la maquette conceptuelle",
+      "microcopy": "VERQIA PILOT est en phase de validation du besoin. L’aperçu présenté est conceptuel et ne constitue pas un service opérationnel.",
+      "annotation": "Données fictives",
+      "imageAlt": "Maquette conceptuelle du tableau de bord VERQIA PILOT avec données fictives."
+    },
+    "video": {
+      "eyebrow": "IDENTITÉ VISUELLE",
+      "title": "L’univers VERQIA PILOT en mouvement",
+      "playLabel": "Lire l’animation de marque VERQIA PILOT"
+    },
+    "problem": {
+      "eyebrow": "LE CONSTAT",
+      "title": "Le suivi des créances se disperse trop facilement.",
+      "body": "Factures réparties entre fichiers et logiciels, échéances repérées tard, relances faites une à une : lorsque les informations sont dispersées, il devient difficile de voir clairement les sommes attendues et les actions à traiter en premier.",
+      "cards": [
+        "Factures et informations réparties entre plusieurs outils.",
+        "Échéances identifiées tardivement.",
+        "Relances manuelles sans historique centralisé."
+      ]
+    },
+    "solution": {
+      "eyebrow": "LE PÉRIMÈTRE ENVISAGÉ",
+      "titleLead": "De la facture à la trésorerie.",
+      "titleAccent": "Avec une logique de pilotage.",
+      "intro": "Le périmètre initial de VERQIA PILOT s’articule autour de quatre fonctions : centraliser, prioriser, relancer et tracer.",
+      "indexLabel": "Les quatre fonctions envisagées pour VERQIA PILOT",
+      "benefits": {
+        "centralize": {
+          "title": "Centraliser",
+          "body": "Retrouver factures, clients et échéances dans un espace unique.",
+          "problem": "Les informations clients, les factures et les échéances sont éparpillées.",
+          "action": "Le périmètre initial prévoit de les réunir dans un même espace de suivi.",
+          "value": "Retrouver plus facilement ce qui reste à encaisser."
+        },
+        "understand": {
+          "title": "Prioriser",
+          "body": "Analyser les encaissements et les situations à risque.",
+          "problem": "Il n’est pas toujours évident de savoir quelle créance traiter d’abord.",
+          "action": "Repérer les retards, les échéances proches et les interventions à mener.",
+          "value": "Organiser le travail de recouvrement selon les priorités visibles."
+        },
+        "anticipate": {
+          "title": "Relancer",
+          "body": "Visualiser les échéances et les prévisions.",
+          "problem": "Les relances sont souvent répétitives et réalisées une par une.",
+          "action": "Structurer le suivi et préparer des modèles de messages; aucun envoi automatisé n’est annoncé.",
+          "value": "Adopter une démarche de relance plus régulière et mieux suivie."
+        },
+        "decide": {
+          "title": "Tracer",
+          "body": "Organiser les actions grâce au moteur décisionnel VERQIA.",
+          "problem": "Les réponses, promesses de paiement et paiements peuvent se perdre dans des échanges dispersés.",
+          "action": "Consigner les réponses, les promesses et les paiements enregistrés.",
+          "value": "Conserver un historique pour mieux observer l’évolution des encaissements."
+        }
+      },
+      "labels": {
+        "problem": "Le problème",
+        "action": "L’action prévue",
+        "value": "La valeur visée"
+      },
+      "outcomesTitle": "Ce que ce pilotage vise à améliorer",
+      "outcomesIntro": "Ce sont des bénéfices attendus, à mesurer lors des premiers pilotes; aucun gain n’est garanti à ce stade.",
+      "outcomes": [
+        "Réduire le temps consacré aux relances répétitives.",
+        "Mieux voir les sommes restant à recevoir.",
+        "Suivre les échéances avec davantage de rigueur.",
+        "Appuyer les décisions sur les informations disponibles.",
+        "Observer l’évolution des créances et des encaissements."
+      ]
+    },
+    "engine": {
+      "eyebrow": "ÉVOLUTION ENVISAGÉE",
+      "title": "Une aide à la décision fondée sur des règles explicites.",
+      "body": "Le moteur décisionnel fait partie de la trajectoire produit. Ses règles restent à documenter et à valider; aucune analyse automatisée n’est présentée comme opérationnelle.",
+      "link": "Découvrir le moteur décisionnel",
+      "accessLabel": "Périmètre de référence envisagé pour",
+      "business": "Business",
+      "enterprise": "Enterprise"
+    },
+    "finalCta": {
+      "title": "Un suivi plus clair commence par les bonnes informations.",
+      "pilotOffer": "VERQIA PILOT est en phase de validation du besoin. Découvrez le parcours produit envisagé.",
+      "pilotCta": "Découvrir VERQIA PILOT",
+      "freeCta": "Voir la maquette conceptuelle"
+    },
+    "dashboard": {
+      "alt": "Maquette conceptuelle du tableau de bord VERQIA PILOT avec données fictives.",
+      "fictional": "Données fictives",
+      "workspace": "VOTRE ESPACE",
+      "overview": "Vue d’ensemble",
+      "invoices": "Factures",
+      "clients": "Clients",
+      "fictitiousItems": "éléments fictifs",
+      "recentItems": "Éléments récents",
+      "viewAll": "Tout voir",
+      "invoice": "Facture fictive",
+      "phoneTitle": "À suivre",
+      "browserAlt": "Maquette conceptuelle du tableau de bord VERQIA PILOT dans une fenêtre de navigateur. Données fictives.",
+      "browserUrl": "Maquette conceptuelle",
+      "brandLabel": "VERQIA PILOT"
+    },
+    "placeholder": ""
+  },
+  "productHub": {
+    "metadataTitle": "VERQIA PILOT — Produit",
+    "title": "VERQIA PILOT",
+    "eyebrow": "ANIMATION DE MARQUE",
+    "videoLabel": "Lire l’animation de marque VERQIA PILOT",
+    "journeyEyebrow": "PÉRIMÈTRE CONCEPTUEL",
+    "journeyTitle": "Fonctions et formules encore à valider.",
+    "whatYouGet": "Orientation de la formule",
+    "quotas": "Quotas de référence à confirmer",
+    "featured": "Formule de référence",
+    "customQuota": "Périmètre à définir après validation des besoins",
+    "discoverMore": "Découvrir les modules, le moteur décisionnel et la démonstration",
+    "quota": {
+      "users": "{count, plural, one {# utilisateur} other {# utilisateurs}}",
+      "invoicesTotal": "{count, plural, one {# facture au total} other {# factures au total}}",
+      "invoicesMonthly": "{count, plural, one {# facture / mois} other {# factures / mois}}",
+      "clientsTotal": "{count, plural, one {# client au total} other {# clients au total}}",
+      "clients": "{count, plural, one {# client} other {# clients}}"
+    },
+    "plans": {
+      "free": {
+        "description": "Une formule de découverte envisagée; aucune création de compte ni quota opérationnel n’est présenté ici comme disponible."
+      },
+      "starter": {
+        "description": "Périmètre initial envisagé : suivi des clients, des factures, des échéances et des paiements enregistrés."
+      },
+      "business": {
+        "description": "Évolutions envisagées : priorisation, analyses et aide à la décision; elles ne sont pas disponibles à ce stade."
+      },
+      "enterprise": {
+        "description": "Périmètre personnalisé à définir après validation des besoins; les intégrations et l’accompagnement restent à préciser."
+      }
+    },
+    "journeyUnavailableTitle": "Aucune formule ni capacité commerciale n’est publiée.",
+    "journeyUnavailableDescription": "Les hypothèses de formules et de quotas restent internes. Cette présentation décrit uniquement un périmètre produit envisagé."
+  },
+  "modulesPage": {
+    "eyebrow": "MODULES",
+    "title": "Les modules de VERQIA PILOT",
+    "subtitle": "Ces modules décrivent le périmètre produit envisagé et sa répartition tarifaire de référence. Les fonctions ne sont pas disponibles comme service opérationnel à ce stade.",
+    "availableFrom": "Répartition envisagée dans {plan}"
+  },
+  "decisionEngine": {
+    "metadataTitle": "VERQIA — Moteur décisionnel",
+    "eyebrow": "TRAJECTOIRE PRODUIT",
+    "titleLead": "Une logique décisionnelle",
+    "titleStruck": "",
+    "titleMiddle": "",
+    "titleAccent": "à valider.",
+    "explanation": "Le moteur décisionnel fait partie du périmètre envisagé. Ses règles restent à documenter; les exemples ci-dessous sont fictifs et n’évaluent aucune donnée réelle.",
+    "accessLabel": "Répartition tarifaire envisagée pour",
+    "and": "et",
+    "business": "Business",
+    "enterprise": "Enterprise",
+    "decisions": {
+      "proceed": {
+        "title": "PROCÉDER",
+        "meaning": "Autoriser ou poursuivre une opération."
+      },
+      "defer": {
+        "title": "DIFFÉRER",
+        "meaning": "Reporter une opération."
+      },
+      "suspend": {
+        "title": "SUSPENDRE",
+        "meaning": "Interrompre temporairement une opération."
+      },
+      "exception": {
+        "title": "DÉROGATION",
+        "meaning": "Appliquer une autorisation exceptionnelle encadrée."
+      }
+    },
+    "demo": {
+      "eyebrow": "EXEMPLE INTERACTIF",
+      "title": "Explorez une décision fictive",
+      "fictional": "Données fictives",
+      "selectInvoice": "Choisir une facture fictive",
+      "invoice": "Facture fictive",
+      "resultLabel": "Décision simulée",
+      "explanationNote": "Exemple fictif uniquement : le moteur n’évalue aucune donnée réelle.",
+      "decisions": {
+        "proceed": "PROCÉDER",
+        "defer": "DIFFÉRER",
+        "suspend": "SUSPENDRE",
+        "exception": "DÉROGATION"
+      },
+      "reasons": {
+        "proceed": "Dans cet exemple fictif, les informations nécessaires sont présentes ; l’opération peut se poursuivre.",
+        "defer": "Dans cet exemple fictif, une information reste à vérifier avant de poursuivre.",
+        "suspend": "Dans cet exemple fictif, la règle simulée demande d’interrompre temporairement l’opération.",
+        "exception": "Dans cet exemple fictif, une autorisation exceptionnelle doit être explicitement encadrée."
+      }
+    }
+  },
+  "demoPage": {
+    "eyebrow": "APERÇU CONCEPTUEL",
+    "title": "Une maquette du suivi des créances envisagé.",
+    "description": "Le cadrage de VERQIA PILOT décrit une vue « à recevoir » à concevoir. L’écran ci-dessous est une maquette avec données fictives, pas une fonctionnalité disponible; le service n’est pas encore opérationnel.",
+    "cta": "Découvrir le parcours envisagé",
+    "previewTitle": "Exemple de tableau de bord « à recevoir »",
+    "fictional": "Données fictives — maquette",
+    "browserUrl": "Maquette conceptuelle",
+    "fictionalNote": "Cette maquette illustre le périmètre de travail du tableau de bord « à recevoir ». Les données sont fictives et ne représentent pas une application disponible.",
+    "lockedLabel": "Éléments prévus au périmètre initial",
+    "lockedFeatures": {
+      "dueDates": "Suivi des échéances envisagé",
+      "payments": "Enregistrement des paiements envisagé",
+      "collections": "Organisation des actions de recouvrement envisagée"
+    },
+    "modal": {
+      "eyebrow": "Fonctionnalité verrouillée",
+      "title": "Cette fonctionnalité fait partie de VERQIA Starter…",
+      "description": "Découvrez les fonctionnalités de la formule Starter.",
+      "cta": "Découvrir Starter",
+      "close": "Fermer la fenêtre"
+    }
+  },
+  "pricingPage": {
+    "eyebrow": "TARIFS",
+    "title": "Périmètre commercial en cours de validation.",
+    "description": "Aucun tarif, quota commercial ou abonnement n’est proposé dans cette présentation. Les hypothèses existantes restent internes et ne constituent pas une offre.",
+    "monthly": "Mensuel",
+    "annual": "Annuel",
+    "billingSwitch": "Basculer entre les tarifs mensuels et annuels",
+    "annualOffer": "Indication tarifaire à confirmer",
+    "perYear": "FCFA / an",
+    "savings": "Écart annuel indicatif : {amount} FCFA.",
+    "recommended": "Formule de référence à valider",
+    "quote": "Sur devis",
+    "custom": "Personnalisé",
+    "users": "Utilisateurs (hypothèse)",
+    "invoices": "Factures (hypothèse)",
+    "clients": "Clients (hypothèse)",
+    "usersUnit": "utilisateur",
+    "total": "au total",
+    "clientsUnit": "clients",
+    "plans": {
+      "free": {
+        "name": "FREE",
+        "role": "Formule de découverte envisagée",
+        "description": "Espace de découverte conceptuel; aucun compte de démonstration opérationnel n’est présenté comme disponible.",
+        "cta": "Voir la maquette",
+        "features": {
+          "workspace": "Aperçu conceptuel VERQIA",
+          "quotas": "Repères indicatifs : 5 factures et 5 clients",
+          "dashboard": "Maquette de tableau de bord"
+        },
+        "locked": "Les fonctions opérationnelles ne sont pas encore disponibles.",
+        "upgrade": "Périmètre initial envisagé dès STARTER"
+      },
+      "starter": {
+        "name": "STARTER",
+        "role": "Périmètre initial envisagé",
+        "description": "Formule de référence envisagée pour organiser clients, factures, échéances et suivi des paiements.",
+        "cta": "Discuter du périmètre",
+        "features": {
+          "workspace": "Périmètre de gestion envisagé",
+          "quotas": "Factures, clients et échéances",
+          "dashboard": "Tableau de bord initial envisagé"
+        },
+        "locked": "Le périmètre décrit n’est pas encore proposé comme service opérationnel.",
+        "upgrade": "Évolutions envisagées dès BUSINESS"
+      },
+      "business": {
+        "name": "BUSINESS",
+        "role": "Évolutions envisagées",
+        "description": "Périmètre de travail incluant, à terme, des prévisions, une analyse et une aide à la décision; fonctions non disponibles à ce stade.",
+        "cta": "Discuter des évolutions",
+        "features": {
+          "workspace": "Évolutions de gestion envisagées",
+          "quotas": "Analyses et automatisations envisagées",
+          "dashboard": "Tableau de bord avancé envisagé"
+        },
+        "locked": "Les fonctions avancées restent à définir et à valider.",
+        "upgrade": "Répartition envisagée avec ENTERPRISE"
+      },
+      "enterprise": {
+        "name": "ENTERPRISE",
+        "role": "Périmètre à définir",
+        "description": "Hypothèse de formule personnalisée, à préciser après validation des besoins; intégrations et accompagnement non confirmés.",
+        "cta": "Échanger sur les besoins",
+        "features": {
+          "workspace": "Périmètre personnalisé envisagé",
+          "quotas": "Volumes à définir",
+          "dashboard": "Tableau de bord à définir"
+        }
+      }
+    },
+    "comparisonEyebrow": "Répartition indicative",
+    "comparisonTitle": "Périmètre envisagé par formule",
+    "statusNote": "",
+    "comparison": {
+      "caption": "Répartition indicative des fonctions envisagées; aucune fonctionnalité de gestion n’est annoncée comme opérationnelle.",
+      "feature": "Fonctionnalité",
+      "plans": {
+        "free": "FREE",
+        "starter": "STARTER",
+        "business": "BUSINESS",
+        "enterprise": "ENTERPRISE"
+      },
+      "notIncluded": "Non prévu dans ce périmètre",
+      "fromPlan": "Périmètre envisagé dès {plan}",
+      "features": {
+        "dashboard": "Tableau de bord",
+        "invoices": "Gestion opérationnelle des factures",
+        "payments": "Suivi des paiements",
+        "collections": "Recouvrement",
+        "forecasts": "Prévisions",
+        "risk": "Analyse du risque client",
+        "decisionEngine": "Moteur décisionnel",
+        "automations": "Automatisations",
+        "multisite": "Multisite / multi-entités",
+        "support": "Accompagnement"
+      },
+      "values": {
+        "no": "Non",
+        "demo": "Maquette",
+        "essential": "Périmètre initial visé",
+        "yes": "Envisagé",
+        "basicManual": "Manuel (envisagé)",
+        "intelligent": "À valider",
+        "advanced": "Évolution envisagée",
+        "advancedPlural": "Évolutions envisagées",
+        "limited": "À préciser",
+        "custom": "À définir",
+        "option": "À l’étude",
+        "dash": "—",
+        "priority": "À définir"
+      }
+    },
+    "faqEyebrow": "Questions fréquentes",
+    "faqTitle": "Précisions sur les formules envisagées",
+    "faq": {
+      "questions": {
+        "free": "La formule FREE est-elle disponible ?",
+        "difference": "Quelle est la différence entre FREE et STARTER ?",
+        "change": "Puis-je changer de formule ?"
+      },
+      "answers": {
+        "free": "Pas à ce stade. FREE est une formule de découverte envisagée; la maquette présentée ne donne pas accès à un compte opérationnel.",
+        "difference": "FREE décrit un espace de découverte conceptuel. STARTER correspond au périmètre opérationnel initial envisagé. Aucune de ces fonctions n’est annoncée comme disponible aujourd’hui.",
+        "change": "Les modalités d’abonnement et de changement de formule restent à définir avant la commercialisation."
+      }
+    },
+    "videoEyebrow": "En bref",
+    "videoTitle": "L’identité visuelle de VERQIA PILOT",
+    "videoLabel": "Lire l’animation de marque VERQIA PILOT",
+    "videoNote": "Animation de marque — il ne s’agit pas d’une démonstration des fonctionnalités.",
+    "contactText": "Vous hésitez sur la formule adaptée à votre besoin ?",
+    "contactCta": "Nous contacter",
+    "pricePerMonth": "FCFA / mois",
+    "quotaPerMonth": "par mois",
+    "unavailableTitle": "Aucune formule commerciale n’est publiée",
+    "unavailableDescription": "VERQIA PILOT est présenté à titre informatif et conceptuel. Les formules, prix, quotas et conditions restent à valider avant toute communication commerciale."
+  },
+  "resourcesPage": {
+    "eyebrow": "RESSOURCES",
+    "title": "Des repères pour mieux découvrir VERQIA.",
+    "description": "Retrouvez les informations sur le périmètre produit envisagé, la validation en cours et les modalités d’un éventuel pilote.",
+    "items": {
+      "faq": {
+        "title": "Questions fréquentes",
+        "description": "Les réponses aux questions les plus courantes sur VERQIA."
+      },
+      "pilot": {
+        "title": "Pilote envisagé",
+        "description": "Un éventuel pilote et ses modalités restent à confirmer après la validation du besoin."
+      }
+    }
+  },
+  "faqPage": {
+    "eyebrow": "RESSOURCES · FAQ",
+    "title": "Questions fréquentes",
+    "description": "Réponses sur le périmètre envisagé, les formules de référence et le stade de validation de VERQIA PILOT.",
+    "count": "{count} questions",
+    "items": {
+      "free": {
+        "question": "VERQIA est-il déjà disponible ?",
+        "answer": "Non. Le deck institutionnel situe le projet en phase de validation du besoin. La maquette du site est conceptuelle; aucun service de gestion des créances n’est présenté comme opérationnel."
+      },
+      "difference": {
+        "question": "Quelle est la différence entre FREE et STARTER ?",
+        "answer": "FREE décrit un espace de découverte envisagé. STARTER correspond au périmètre initial opérationnel visé. Ces formules et leurs fonctionnalités ne sont pas annoncées comme disponibles aujourd’hui."
+      },
+      "business": {
+        "question": "Pourquoi choisir BUSINESS ?",
+        "answer": "Les prévisions, l’analyse du risque et le moteur décisionnel font partie des évolutions envisagées. Ils ne sont pas présentés comme des fonctionnalités opérationnelles."
+      },
+      "accounting": {
+        "question": "VERQIA remplace-t-il un logiciel comptable ?",
+        "answer": "Non. VERQIA PILOT est pensé comme une couche spécialisée qui complète les outils existants. Aucune intégration technique avec ces outils n’est annoncée comme disponible."
+      },
+      "change": {
+        "question": "Puis-je changer de formule ?",
+        "answer": "Les abonnements ne sont pas encore commercialisés. Les conditions et les modalités de changement de formule restent à définir."
+      },
+      "sector": {
+        "question": "VERQIA est-il adapté à mon secteur ?",
+        "answer": "La validation porte d’abord sur les TPE/PME B2B qui vendent à crédit et suivent régulièrement des créances. Les secteurs cités sont des segments envisagés, pas des références clients ni des adaptations déjà livrées."
+      },
+      "demo": {
+        "question": "Puis-je demander une démonstration ?",
+        "answer": "Le site présente une maquette conceptuelle avec des données fictives, pas une démonstration d’un produit opérationnel. Les modalités d’un éventuel pilote restent à confirmer."
+      }
+    }
+  },
+  "pilotPage": {
+    "eyebrow": "PROGRAMME PILOTE ENVISAGÉ",
+    "title": "Une phase de test à définir après validation du besoin.",
+    "description": "VERQIA PILOT est en phase de validation du besoin. Aucun pilote opérationnel, date, durée ou tarif n’est confirmé sur cette page.",
+    "offerStatus": "La tenue d’un pilote et ses modalités restent à confirmer.",
+    "terms": "Périmètre, durée, accès et critères de mesure à définir avant tout pilote.",
+    "responseTime": "",
+    "cta": "Demander des informations",
+    "steps": {
+      "contact": {
+        "title": "Découvrir le périmètre",
+        "description": "Comprendre le besoin visé et le parcours produit envisagé."
+      },
+      "scope": {
+        "title": "Définir les conditions",
+        "description": "Le périmètre, la durée et les critères de mesure restent à confirmer."
+      },
+      "explore": {
+        "title": "Tester si le cadre est validé",
+        "description": "Un test ne pourra commencer qu’après disponibilité d’un prototype et accord des entreprises concernées."
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "À PROPOS",
+    "title": "Derrière VERQIA, une ambition : rendre le pilotage des créances plus intelligent.",
+    "description": "Nous construisons une nouvelle approche du suivi des créances et du pilotage des encaissements, pour permettre aux entreprises de mieux organiser leur cycle de recouvrement.",
+    "heroVisualLabel": "Parcours de créance — illustration éditoriale",
+    "founder": {
+      "eyebrow": "UNE CONVICTION FONDATRICE",
+      "title": "Le mot du fondateur",
+      "photoAlt": "Portrait de {name}",
+      "photoPending": "Portrait à fournir",
+      "photoCaption": "Photographie fournie pour la présentation institutionnelle.",
+      "role": "Fondateur de VERQIA",
+      "paragraphOne": "VERQIA est née d’une conviction : les entreprises doivent pouvoir mieux maîtriser le parcours qui sépare une facture de son encaissement.",
+      "paragraphTwo": "Nous avons voulu concevoir une solution qui ne se contente pas de suivre des factures, mais qui aide les entreprises à organiser leurs actions, mieux comprendre leurs créances et améliorer leur visibilité sur les encaissements attendus.",
+      "paragraphThree": "Notre ambition est de rendre le pilotage du recouvrement plus accessible, plus structuré et plus pertinent pour les PME.",
+      "paragraphFour": "VERQIA est une aventure construite autour d’une vision : donner aux entreprises les moyens de mieux piloter leur trésorerie, avec méthode et intelligence.",
+      "quote": "Nous ne voulons pas créer un logiciel que les entreprises trouvent intéressant. Nous voulons créer un outil dont elles constatent la valeur financière et qu’elles choisissent de payer chaque mois.",
+      "signaturePending": "Nom et fonction du fondateur à compléter avant publication."
+    },
+    "purpose": {
+      "eyebrow": "NOTRE CAP",
+      "title": "Une direction simple, un travail exigeant.",
+      "visionLabel": "NOTRE VISION",
+      "vision": "Faire du pilotage des créances un véritable levier de maîtrise financière pour les entreprises.",
+      "missionLabel": "NOTRE MISSION",
+      "mission": "Concevoir des outils accessibles et structurés qui simplifient le suivi des factures, les relances et la visibilité sur les encaissements."
+    },
+    "values": {
+      "eyebrow": "NOS VALEURS",
+      "title": "Les principes qui donnent le ton.",
+      "items": {
+        "clarity": {
+          "title": "Clarté",
+          "description": "Rendre l’information financière plus lisible pour aider à choisir la prochaine action."
+        },
+        "reliability": {
+          "title": "Fiabilité",
+          "description": "Privilégier des repères structurés, compréhensibles et vérifiables."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "description": "Explorer des approches utiles sans ajouter de complexité inutile."
+        },
+        "mastery": {
+          "title": "Maîtrise",
+          "description": "Donner aux équipes une meilleure prise sur le suivi de leurs créances."
+        }
+      }
+    },
+    "partners": {
+      "eyebrow": "ÉCOSYSTÈME",
+      "title": "Un écosystème tourné vers une gestion plus intelligente.",
+      "description": "Les collaborations à venir seront présentées ici après leur validation et les autorisations nécessaires.",
+      "carouselLabel": "Bandeau d’identités graphiques de démonstration",
+      "demoNotice": "Identités graphiques fictives de démonstration : elles ne représentent pas des partenaires ou des clients de VERQIA.",
+      "marks": {
+        "01": "HORIZON 01",
+        "02": "AXE 02",
+        "03": "REPÈRE 03",
+        "04": "ORIGINE 04",
+        "05": "TRAME 05",
+        "06": "LIGNE 06"
+      }
+    },
+    "team": {
+      "eyebrow": "L’ÉQUIPE",
+      "title": "Les personnes derrière la vision.",
+      "description": "Une équipe pluridisciplinaire est imaginée pour construire, tester et faire évoluer une expérience de pilotage utile.",
+      "demoNotice": "Profils, noms, fonctions et portraits générés pour la démonstration. Ils ne représentent pas des collaborateurs réels et doivent être remplacés avant publication.",
+      "carouselLabel": "Profils de démonstration de l’équipe VERQIA",
+      "previous": "Voir les profils précédents",
+      "next": "Voir les profils suivants",
+      "cardLabel": "Profil de démonstration {index} sur {count}",
+      "members": {
+        "leadership": {
+          "name": "Aïda Kori",
+          "role": "Direction générale",
+          "bio": "Profil de démonstration pour illustrer une direction engagée dans la vision et le cap de VERQIA.",
+          "imageAlt": "Portrait de démonstration d’Aïda Kori"
+        },
+        "product": {
+          "name": "Nolan Évia",
+          "role": "Produit et innovation",
+          "bio": "Profil de démonstration pour représenter la traduction des besoins terrain en parcours produit.",
+          "imageAlt": "Portrait de démonstration de Nolan Évia"
+        },
+        "engineering": {
+          "name": "Maëlle Soroa",
+          "role": "Développement logiciel",
+          "bio": "Profil de démonstration pour illustrer la conception d’expériences numériques robustes et accessibles.",
+          "imageAlt": "Portrait de démonstration de Maëlle Soroa"
+        },
+        "finance": {
+          "name": "Djamal N’Zi",
+          "role": "Finance et stratégie",
+          "bio": "Profil de démonstration pour représenter l’attention portée aux enjeux de gestion et de pilotage.",
+          "imageAlt": "Portrait de démonstration de Djamal N’Zi"
+        },
+        "experience": {
+          "name": "Lina Kora",
+          "role": "Expérience utilisateur",
+          "bio": "Profil de démonstration pour incarner la recherche de clarté dans chaque interaction.",
+          "imageAlt": "Portrait de démonstration de Lina Kora"
+        },
+        "customer": {
+          "name": "Éli Nawa",
+          "role": "Relation client",
+          "bio": "Profil de démonstration pour illustrer l’écoute et l’accompagnement des futurs utilisateurs.",
+          "imageAlt": "Portrait de démonstration d’Éli Nawa"
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "TÉMOIGNAGES",
+      "title": "Des retours à publier avec rigueur.",
+      "pending": "Aucun témoignage client ou résultat commercial n’est affiché tant que les contenus, les autorisations et leur contexte de publication ne sont pas validés."
+    },
+    "geographyTitle": "Couverture géographique",
+    "city": "Ville",
+    "country": "Pays",
+    "domain": "Domaine officiel",
+    "videoTitle": "Vidéo du fondateur"
+  },
+  "securityPage": {
+    "eyebrow": "SÉCURITÉ ET CONFIANCE",
+    "title": "Sécurité et confiance",
+    "description": "Un aperçu des principes de sécurité pris en compte pour VERQIA PILOT.",
+    "disclaimer": "Ce site ne revendique aucune certification de sécurité ni aucun audit indépendant.",
+    "bankNotice": "VERQIA n’est pas une banque ou un établissement financier.",
+    "topics": {
+      "protection": {
+        "title": "Protection des données",
+        "description": "Les préférences cookies sont stockées localement dans le navigateur. Aucun traceur non essentiel de mesure ou de publicité n’est activé."
+      },
+      "hosting": {
+        "title": "Hébergement",
+        "description": "Ce site diffuse la présentation de VERQIA PILOT et ses ressources médias."
+      },
+      "access": {
+        "title": "Accès et rôles",
+        "description": "L’accès au compte dépend de la configuration du fournisseur d’authentification."
+      },
+      "traceability": {
+        "title": "Journalisation des décisions",
+        "description": "La présentation publique ne fournit pas de journal d’audit opérationnel des actions métier."
+      }
+    },
+    "referencesTitle": "Textes et autorités de référence",
+    "referenceNote": "Les références ci-dessous sont des sources officielles relatives aux sujets juridiques et de sécurité cités.",
+    "officialText": "Consulter la source officielle",
+    "legalReferences": {
+      "dataProtection": {
+        "title": "Loi n° 2013-450 du 19 juin 2013 — données personnelles",
+        "description": "Elle encadre les traitements, l’information, les droits des personnes et les transferts vers des pays tiers. Consultez l’ARTCI et un conseil ivoirien pour identifier les formalités applicables."
+      },
+      "electronicTransactions": {
+        "title": "Loi n° 2013-546 du 30 juillet 2013 — transactions électroniques",
+        "description": "Son article 40 prévoit l’archivage de documents sous forme électronique pendant dix ans, sauf délai légal plus court. Cela ne fixe pas une durée générale de dix ans pour toutes les données personnelles."
+      },
+      "cybercrime": {
+        "title": "Loi n° 2013-451 du 19 juin 2013 — cybercriminalité",
+        "description": "Texte de référence sur la lutte contre la cybercriminalité; lire avec ses modifications ultérieures."
+      },
+      "cybercrimeAmendment": {
+        "title": "Loi n° 2023-593 du 7 juin 2023 — modification de la loi cybercriminalité",
+        "description": "Modifie plusieurs articles de la loi n° 2013-451. Consulter le texte officiel et les consolidations pertinentes."
+      },
+      "informationSociety": {
+        "title": "Loi n° 2017-803 du 7 décembre 2017 — société de l’information",
+        "description": "Texte d’orientation de la société de l’information en Côte d’Ivoire."
+      },
+      "electronicServicesOrdinance": {
+        "title": "Ordonnance n° 2024-950 du 30 octobre 2024",
+        "description": "Texte relatif aux services électroniques. Consulter la source officielle pour son champ d’application."
+      },
+      "dataProtectionForms": {
+        "title": "Formalités relatives aux données personnelles",
+        "description": "Consulter les formulaires et instructions officiels de l’Autorité de protection; vérifier les formalités applicables au traitement et aux transferts."
+      },
+      "anssiMissions": {
+        "title": "Missions de l’ANSSI Côte d’Ivoire",
+        "description": "Source institutionnelle sur les missions de l’agence nationale de sécurité des systèmes d’information."
+      }
+    }
+  },
+  "legalPage": {
+    "eyebrow": "DOCUMENT DE TRAVAIL",
+    "reviewNotice": "Ces pages décrivent les pratiques et fonctions visibles sur ce site. Elles ne constituent pas un avis juridique.",
+    "fieldsTitle": "Informations de l’éditeur",
+    "bankNotice": "VERQIA n’est ni une banque ni un établissement financier.",
+    "fields": {
+      "companyName": "Raison sociale / dénomination sociale",
+      "legalForm": "Forme juridique",
+      "registeredOffice": "Siège social",
+      "rccm": "Numéro RCCM",
+      "capital": "Capital social (si applicable)",
+      "taxId": "Numéro de compte contribuable / identifiant fiscal",
+      "legalRepresentative": "Représentant légal",
+      "contactEmail": "E-mail professionnel",
+      "contactPhone": "Téléphone professionnel",
+      "publicationDirector": "Directeur de la publication",
+      "hostName": "Nom de l’hébergeur",
+      "hostAddress": "Adresse de l’hébergeur",
+      "hostContact": "Contact de l’hébergeur",
+      "controller": "Responsable du traitement",
+      "purposes": "Finalités du traitement",
+      "dataCategories": "Catégories de données",
+      "recipients": "Destinataires (hébergeur, service d’e-mail, autres)",
+      "retention": "Durées de conservation par finalité",
+      "rightsContact": "Contact pour les demandes d’exercice des droits",
+      "transferCountries": "Pays et modalités des transferts hors Côte d’Ivoire",
+      "processors": "Sous-traitants",
+      "serviceScope": "Description et périmètre du service",
+      "accessRules": "Conditions d’accès et d’utilisation",
+      "responsibility": "Répartition des responsabilités",
+      "data": "Données et responsabilités associées",
+      "applicableLaw": "Droit applicable",
+      "courts": "Juridictions compétentes",
+      "taxStatus": "Prix HT ou TTC et régime fiscal",
+      "payment": "Moyens, échéances et modalités de paiement",
+      "termination": "Résiliation et effets de fin de contrat",
+      "cookieTypes": "Types de cookies et traceurs utilisés",
+      "cookiePurposes": "Finalités des cookies et traceurs",
+      "cookieDuration": "Durées de conservation",
+      "consentMethod": "Consentement préalable et modalités de retrait",
+      "intellectualProperty": "Droits de propriété intellectuelle"
+    },
+    "pages": {
+      "mentions-legales": {
+        "title": "Mentions légales",
+        "intro": "Informations générales sur le projet VERQIA PILOT."
+      },
+      "confidentialite": {
+        "title": "Politique de confidentialité",
+        "intro": "Informations relatives aux données et aux préférences cookies sur ce site.",
+        "sections": [
+          "data",
+          "purpose",
+          "recipients",
+          "retention",
+          "rights"
+        ]
+      },
+      "cgu": {
+        "title": "Conditions générales d’utilisation",
+        "intro": "Conditions d’utilisation du site de présentation VERQIA PILOT.",
+        "sections": [
+          "service",
+          "access"
+        ]
+      },
+      "cgv": {
+        "title": "Conditions générales de vente",
+        "intro": "Informations sur les formules VERQIA PILOT et les tarifs affichés.",
+        "sections": [
+          "service",
+          "offers"
+        ]
+      },
+      "cookies": {
+        "title": "Politique de cookies",
+        "intro": "Comment ce site enregistre et applique vos préférences cookies.",
+        "sections": [
+          "purpose",
+          "types",
+          "duration",
+          "choices"
+        ]
+      }
+    },
+    "sections": {
+      "mentions-legales": {
+        "publisher": {
+          "title": "Éditeur et représentant légal",
+          "body": "VERQIA PILOT est le nom de produit utilisé sur ce site."
+        },
+        "hosting": {
+          "title": "Hébergement",
+          "body": "Le site diffuse la présentation de VERQIA PILOT et ses ressources médias."
+        },
+        "intellectualProperty": {
+          "title": "Propriété intellectuelle",
+          "body": "Le site présente les éléments de marque VERQIA et les ressources fournies pour ce projet."
+        },
+        "law": {
+          "title": "Droit applicable et juridictions",
+          "body": "Cette page est informative et ne constitue pas un avis juridique."
+        }
+      },
+      "confidentialite": {
+        "data": {
+          "title": "Qui traite les données et lesquelles ?",
+          "body": "Les choix de préférences cookies sont stockés localement dans le navigateur."
+        },
+        "purpose": {
+          "title": "Pourquoi les données sont-elles traitées ?",
+          "body": "Le stockage local sert à mémoriser les catégories de cookies optionnelles autorisées."
+        },
+        "recipients": {
+          "title": "Qui reçoit les données ?",
+          "body": "Aucun service non essentiel de mesure d’audience ou de publicité n’est activé sur ce site."
+        },
+        "retention": {
+          "title": "Durées de conservation des données personnelles",
+          "body": "La préférence reste dans ce navigateur jusqu’à la suppression des données du site ou à la modification du choix."
+        },
+        "electronicArchive": {
+          "title": "Archivage de documents électroniques",
+          "body": ""
+        },
+        "transfers": {
+          "title": "Transferts hors de Côte d’Ivoire",
+          "body": ""
+        },
+        "rights": {
+          "title": "Droits des personnes et contact",
+          "body": "Vous pouvez modifier ou supprimer la préférence enregistrée depuis les réglages cookies de ce site."
+        }
+      },
+      "cgu": {
+        "service": {
+          "title": "Description du service",
+          "body": "Ce site présente VERQIA PILOT et ne donne pas accès à des fonctions opérationnelles de gestion financière."
+        },
+        "access": {
+          "title": "Accès et utilisation",
+          "body": "L’accès au compte est disponible uniquement lorsque le fournisseur d’authentification est configuré."
+        },
+        "responsibility": {
+          "title": "Responsabilités",
+          "body": ""
+        },
+        "data": {
+          "title": "Données et conservation",
+          "body": ""
+        },
+        "law": {
+          "title": "Droit applicable et litiges",
+          "body": ""
+        }
+      },
+      "cgv": {
+        "service": {
+          "title": "Service vendu",
+          "body": "Les formules décrivent l’offre VERQIA PILOT. Aucun paiement ni abonnement payant n’est traité depuis ce site de présentation."
+        },
+        "offers": {
+          "title": "Formules et prix",
+          "body": "Les prix et quotas affichés suivent les valeurs configurées pour cette version. La formule Enterprise fait l’objet d’un devis."
+        },
+        "payment": {
+          "title": "Facturation et paiement",
+          "body": ""
+        },
+        "termination": {
+          "title": "Résiliation",
+          "body": ""
+        },
+        "responsibility": {
+          "title": "Responsabilités",
+          "body": ""
+        },
+        "data": {
+          "title": "Données du client",
+          "body": ""
+        },
+        "law": {
+          "title": "Droit applicable et juridictions",
+          "body": ""
+        }
+      },
+      "cookies": {
+        "purpose": {
+          "title": "Objet de cette politique",
+          "body": "Les préférences cookies servent à mémoriser vos choix sur ce site."
+        },
+        "types": {
+          "title": "Types et finalités",
+          "body": "Seul le réglage des préférences est stocké localement. Aucun traceur non essentiel de mesure ou de publicité n’est activé."
+        },
+        "duration": {
+          "title": "Durées",
+          "body": "Le réglage reste dans le stockage local du navigateur jusqu’à la suppression des données du site ou à la modification de votre choix."
+        },
+        "choices": {
+          "title": "Consentement et choix",
+          "body": "Utilisez le bouton de réglage des cookies sur cette page pour modifier votre choix. Les catégories optionnelles restent désactivées tant que vous ne les activez pas."
+        }
+      }
+    },
+    "pricesTitle": "Grille indicative des formules",
+    "pricesNote": "Montants exprimés en francs CFA.",
+    "pricesCaption": "Prix affichés par formule, en francs CFA.",
+    "plan": "Formule",
+    "monthly": "Mensuel",
+    "annual": "Annuel",
+    "priceMonth": "FCFA / mois",
+    "priceYear": "FCFA / an",
+    "quote": "Sur devis",
+    "pricesTax": ""
+  },
+  "solutionsPage": {
+    "eyebrow": "SOLUTIONS",
+    "title": "Un besoin ciblé : le suivi des créances des PME/TPE B2B.",
+    "description": "Le cadrage cible d’abord les TPE/PME B2B qui vendent à crédit et suivent régulièrement des créances. Les activités ci-dessous sont des segments envisagés pour la validation terrain, pas des références clients ni la preuve d’une adaptation déjà livrée.",
+    "audiencesTitle": "Segments envisagés pour la validation terrain",
+    "audiences": {
+      "items": {
+        "commerce": "Distributeurs et grossistes",
+        "professionalServices": "Services B2B, agences et cabinets",
+        "startups": "Maintenance et location",
+        "smes": "TPE et PME B2B",
+        "b2b": "BTP et fournisseurs",
+        "wholesalers": "PME avec équipe commerciale",
+        "largeOrganizations": "Autres activités B2B à valider"
+      },
+      "images": {
+        "commerce": "Image à fournir — commerce et distribution",
+        "professionalServices": "Image à fournir — cabinets et services professionnels",
+        "startups": "Image à fournir — startups",
+        "smes": "Image à fournir — PME",
+        "b2b": "Image à fournir — entreprises B2B",
+        "wholesalers": "Image à fournir — grossistes et supermarchés",
+        "largeOrganizations": "Image à fournir — grandes organisations"
+      }
+    },
+    "simulations": {
+      "eyebrow": "SCÉNARIOS ILLUSTRATIFS",
+      "title": "Scénarios illustratifs pour les entreprises",
+      "illustrativeLabel": "Simulation illustrative, pas un résultat client",
+      "overdue": "Factures en retard",
+      "followUp": "Temps de relance",
+      "amount": "Montant simulé",
+      "millions": "M FCFA",
+      "duration": "Durée simulée : {weeks} semaines",
+      "illustrativeDisclaimer": "Scénarios illustratifs, pas des résultats clients. Les chiffres présentés ne sont pas des résultats vérifiés.",
+      "scenarios": {
+        "distribution-grossiste": {
+          "title": "Distribution et grossiste",
+          "context": "Scénario simulé"
+        },
+        "services-b2b": {
+          "title": "Services B2B",
+          "context": "Scénario simulé"
+        },
+        "pme-btp": {
+          "title": "PME du BTP",
+          "context": "Scénario simulé"
+        }
+      }
+    }
+  },
+  "announcement": {
+    "label": "Annonce VERQIA",
+    "offer": "VERQIA PILOT — pilotage financier",
+    "cta": "Découvrir VERQIA",
+    "close": "Fermer l’annonce"
+  },
+  "scroll": {
+    "progressLabel": "Progression de lecture",
+    "toTop": "Retour en haut"
+  },
+  "cookieConsent": {
+    "title": "Vos préférences de cookies",
+    "description": "Aucun traceur non essentiel n’est activé sans votre choix. Votre préférence est conservée localement sur cet appareil.",
+    "policyLink": "Politique de cookies",
+    "necessary": "Essentiels",
+    "alwaysOn": "Toujours actifs",
+    "analytics": "Mesure d’audience",
+    "marketing": "Marketing",
+    "acceptAll": "Tout accepter",
+    "essentialOnly": "Refuser les facultatifs",
+    "customize": "Personnaliser",
+    "save": "Enregistrer mes choix",
+    "manage": "Gérer mes préférences"
+  },
+  "loading": {
+    "label": "Chargement du contenu"
+  },
+  "errors": {
+    "notFoundTitle": "Cette page n’existe pas",
+    "notFoundBody": "Le lien est peut-être incorrect ou la page a été déplacée.",
+    "home": "Retour à l’accueil",
+    "errorTitle": "Une erreur est survenue",
+    "errorBody": "Réessaie. Si le problème persiste, reviens un peu plus tard.",
+    "retry": "Réessayer"
+  },
+  "auth": {
+    "loginTitle": "Heureux de vous retrouver.",
+    "loginDescription": "Connectez-vous à votre espace VERQIA PILOT.",
+    "signupTitle": "Créez votre espace.",
+    "signupDescription": "Commencez par créer votre compte VERQIA PILOT.",
+    "forgotTitle": "Réinitialiser votre accès.",
+    "forgotDescription": "Saisissez l’adresse associée à votre compte pour recevoir un lien de réinitialisation.",
+    "newPasswordTitle": "Choisissez un nouveau mot de passe.",
+    "newPasswordDescription": "Votre nouveau mot de passe doit contenir au moins 12 caractères.",
+    "signedInTitle": "Vous êtes connecté.",
+    "signedInAs": "Session ouverte pour {email}.",
+    "signedIn": "Connexion réussie.",
+    "signOut": "Se déconnecter",
+    "serviceNotConfigured": "L’authentification n’est pas encore activée sur cette préversion. Aucun compte ne sera créé ni connecté.",
+    "working": "Connexion en cours…",
+    "continueGoogle": "Continuer avec Google",
+    "continueMicrosoft": "Continuer avec Microsoft",
+    "orEmail": "ou avec votre e-mail",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "rememberMe": "Garder ma session ouverte sur cet appareil",
+    "forgotPassword": "Mot de passe oublié ?",
+    "showPassword": "Afficher le mot de passe",
+    "hidePassword": "Masquer le mot de passe",
+    "loginButton": "Se connecter",
+    "noAccount": "Vous n’avez pas encore de compte ?",
+    "createAccount": "Créer un compte",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "company": "Entreprise",
+    "confirmPassword": "Confirmer le mot de passe",
+    "acceptTerms": "J’accepte les",
+    "termsLink": "conditions d’utilisation",
+    "and": "et la",
+    "privacyLink": "politique de confidentialité",
+    "signupButton": "Créer mon compte",
+    "haveAccount": "Vous avez déjà un compte ?",
+    "loginLink": "Se connecter",
+    "sendReset": "Envoyer le lien de réinitialisation",
+    "backToLogin": "Retour à la connexion",
+    "resetSent": "Si un compte correspond à cette adresse, un lien de réinitialisation va être envoyé.",
+    "resetFailed": "Impossible de traiter la demande. Vérifiez la configuration et réessayez.",
+    "passwordUpdated": "Votre mot de passe a été mis à jour.",
+    "newPassword": "Nouveau mot de passe",
+    "updatePassword": "Mettre à jour le mot de passe",
+    "loginFailed": "Connexion impossible. Vérifiez vos identifiants et réessayez.",
+    "signupFailed": "La création du compte a échoué. Vérifiez les informations et réessayez.",
+    "accountCreated": "Votre compte a été créé.",
+    "confirmEmail": "Vérifiez votre boîte de réception pour confirmer votre adresse e-mail.",
+    "validation": {
+      "email": "Saisissez une adresse e-mail valide.",
+      "password": "Saisissez votre mot de passe.",
+      "passwordRequired": "Saisissez votre mot de passe.",
+      "firstName": "Saisissez votre prénom.",
+      "lastName": "Saisissez votre nom.",
+      "company": "Saisissez le nom de votre entreprise.",
+      "passwordLength": "Le mot de passe doit contenir au moins 12 caractères.",
+      "passwordMismatch": "Les mots de passe ne correspondent pas.",
+      "terms": "Acceptez les conditions pour continuer.",
+      "invalidForm": "Vérifiez les champs du formulaire."
+    },
+    "providerFailed": "Le fournisseur de connexion a refusé la demande. Vérifiez sa configuration dans Supabase.",
+    "brandStoryLabel": "À propos de VERQIA PILOT",
+    "backHome": "Retour à l’accueil",
+    "eyebrow": "PRÉSENTATION VERQIA PILOT",
+    "storyTitle": "Une présentation en cours de validation.",
+    "storyDescription": "VERQIA PILOT présente un périmètre envisagé, sans espace utilisateur opérationnel.",
+    "storyNote": "Aucun compte ou accès authentifié n’est disponible dans cette version.",
+    "formLabel": "Information de disponibilité",
+    "unavailableTitle": "Accès utilisateur non disponible",
+    "unavailableDescription": "Cette version est une présentation informative et conceptuelle. Aucun compte ni mode de connexion n’est proposé.",
+    "unavailableLabel": "Disponibilité de l’accès"
+  },
+  "productWorkflow": {
+    "eyebrow": "PARCOURS PRODUIT ENVISAGÉ",
+    "title": "Un suivi qui va de la facture à l’encaissement.",
+    "intro": "Le parcours prévu pour aider les équipes à organiser les créances, étape après étape.",
+    "statusNote": "VERQIA PILOT est actuellement en phase de validation du besoin. Ce parcours décrit le périmètre initial envisagé, pas une application opérationnelle.",
+    "steps": {
+      "centralize": {
+        "title": "Centraliser",
+        "body": "Réunir les informations clients, les factures et les échéances dans un même suivi."
+      },
+      "identify": {
+        "title": "Identifier les échéances",
+        "body": "Voir les échéances à venir, proches ou dépassées selon les informations enregistrées."
+      },
+      "prioritize": {
+        "title": "Repérer les priorités",
+        "body": "Faire ressortir les retards, les échéances proches et les interventions à traiter."
+      },
+      "organize": {
+        "title": "Organiser les relances",
+        "body": "Structurer les actions à mener et préparer des modèles de messages, sans automatiser leur envoi."
+      },
+      "follow": {
+        "title": "Suivre les réponses et les promesses",
+        "body": "Garder trace des réponses reçues et des engagements de paiement."
+      },
+      "record": {
+        "title": "Enregistrer les paiements",
+        "body": "Consigner les paiements partiels ou complets dans le suivi."
+      },
+      "observe": {
+        "title": "Observer l’évolution des encaissements",
+        "body": "S’appuyer sur l’historique et des indicateurs simples envisagés pour le périmètre initial."
+      }
+    },
+    "differentiationTitle": "VERQIA ne remplace pas vos outils. Il s’y ajoute.",
+    "differentiationBody": "VERQIA PILOT est pensé comme une couche spécialisée pour structurer le passage de la facture à l’encaissement. Cette complémentarité ne signifie pas qu’une connexion technique aux outils de gestion, aux moyens de paiement ou aux canaux de communication est déjà disponible.",
+    "limitations": "Les prévisions, l’analyse avancée, l’envoi automatisé des relances et les intégrations externes ne sont pas présentés comme des fonctions opérationnelles."
+  }
+}

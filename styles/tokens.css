@@ -1,0 +1,17 @@
+:root, :root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #1c1c1c; --bg-deep: #121212; --surface: #262626; --text: #f5f5f5;
+  --muted: #a3a3a3; --border: #3a3a3a; --accent: #97f201; --accent-text: #97f201;
+  --on-accent: #1c1c1c; --focus: #97f201;
+  --badge-validate-bg: #3a3000; --badge-validate-text: #ffd54a;
+  --badge-complete-bg: #3a1f00; --badge-complete-text: #ffb066;
+}
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f6f4ee; --bg-deep: #ece9e0; --surface: #fff; --text: #1c1c1c;
+  --muted: #5f5f5f; --border: #e2e2dc; --accent: #97f201; --accent-text: #3f7a00;
+  --on-accent: #1c1c1c; --focus: #3f7a00;
+  --badge-validate-bg: #fff3c4; --badge-validate-text: #7a5b00;
+  --badge-complete-bg: #ffe6cc; --badge-complete-text: #8a4500;
+}
+:root { --radius-card: 24px; --radius-field: 12px; --content-width: 1200px; --reading-width: 720px; }

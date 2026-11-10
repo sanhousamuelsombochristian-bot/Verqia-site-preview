@@ -1,0 +1,1259 @@
+{
+  "common": {
+    "siteName": "VERQIA PILOT",
+    "skip": "Skip to content",
+    "placeholder": "",
+    "validate": "",
+    "fakeData": "Demo data",
+    "toSupply": "",
+    "quotePending": "",
+    "mediaImage": "Image preview",
+    "mediaVideo": "Video preview",
+    "locked": "Available with {plan}",
+    "completeLogo": "VERQIA logo",
+    "newTab": "(opens in a new tab)",
+    "captionsToComplete": "Optional captions",
+    "frenchCaptions": "French",
+    "englishCaptions": "English"
+  },
+  "kit": {
+    "title": "Interface kit",
+    "intro": "Preview of VERQIA foundation components. Internal test page, excluded from the sitemap.",
+    "button": "Primary button",
+    "secondary": "Secondary action",
+    "badge": "Badges",
+    "sectionLabel": "Visual foundations",
+    "accent": "Editorial accent",
+    "card": "Numbered card",
+    "accordion": "Accordion",
+    "stepper": "Steps",
+    "locked": "Locked feature",
+    "media": "Media",
+    "video": "Video player",
+    "quote": "Editorial quote",
+    "steps": [
+      "Centralize",
+      "Understand",
+      "Anticipate"
+    ],
+    "faqTitle": "How does the demo work?",
+    "faqBody": "Demos in this phase use local state only and clearly labeled fictional data.",
+    "placeholder": "Sample editorial content.",
+    "themeLight": "Use light theme",
+    "themeDark": "Use dark theme"
+  },
+  "routes": {
+    "home": "Home",
+    "product": "Product",
+    "modules": "Modules",
+    "engine": "Decision engine",
+    "demo": "Demo",
+    "solutions": "Solutions",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "faq": "FAQ",
+    "pilot": "Pilot program",
+    "about": "About",
+    "contact": "Contact",
+    "security": "Security and trust",
+    "legal": "Legal information"
+  },
+  "nav": {
+    "product": "Product",
+    "offers": "Plans",
+    "engine": "Decision engine",
+    "faq": "FAQ",
+    "solutions": "Solutions",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "about": "About",
+    "requestPilot": "Request a pilot",
+    "discoverFree": "Explore the conceptual mock-up",
+    "discoverFreeShort": "View the mock-up",
+    "contactUs": "Contact us",
+    "productMenuEyebrow": "PRODUCT",
+    "productMenuTitle": "Envisioned product scope, currently under validation.",
+    "viewModules": "View the 10 envisioned modules",
+    "offersMenuEyebrow": "PLANS",
+    "offersMenuTitle": "Reference plans to be confirmed.",
+    "priceDisclaimer": "Indicative prices, quotas and scope; not commercially available at this stage.",
+    "viewOffers": "View plan availability",
+    "engineMenuEyebrow": "DECISIONS",
+    "engineMenuTitle": "An envisioned decision-making logic.",
+    "viewEngine": "Explore the engine",
+    "modules": "Modules",
+    "demo": "Demo",
+    "pilot": "Pilot program",
+    "guides": "Guides",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "primary": "Primary navigation",
+    "language": "Language",
+    "theme": "Theme",
+    "themeLight": "Switch to light theme",
+    "themeDark": "Switch to dark theme",
+    "openSubmenu": "Open the {label} submenu",
+    "closeSubmenu": "Close the {label} submenu",
+    "logoMissing": "Logo to be supplied",
+    "brandName": "VERQIA PILOT",
+    "dropdown": {
+      "modules": "Envisioned functional scope; no operational service is available at this stage.",
+      "engine": "Explore the engine concept; rules still need to be documented and validated.",
+      "demo": "Explore a mock-up using fictional data.",
+      "faq": "Answers to frequently asked questions.",
+      "pilot": "Learn about the pilot program.",
+      "guides": "Guides and resources to explore VERQIA."
+    },
+    "login": "Sign in",
+    "signup": "Create account",
+    "offersUnavailableTitle": "No commercial plan is published.",
+    "offersUnavailableDescription": "Plan, pricing and quota assumptions remain internal and must be validated before any offer."
+  },
+  "footer": {
+    "signature": "Financial mastery. Decision intelligence. Operational control.",
+    "product": "Product",
+    "offers": "Plans",
+    "company": "Company",
+    "legal": "Legal",
+    "productHome": "Overview",
+    "modules": "Modules",
+    "engine": "Decision engine",
+    "demo": "Demo",
+    "pricing": "Pricing",
+    "solutions": "Solutions",
+    "about": "About",
+    "contact": "Contact",
+    "legalNotice": "Legal notice",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "salesTerms": "Terms and conditions of sale",
+    "cookies": "Cookie policy",
+    "security": "Security and trust",
+    "manageCookies": "Manage cookies",
+    "bankNotice": "VERQIA is not a bank or financial institution.",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "calendly": "Calendly",
+    "newTab": "(opens in a new tab)",
+    "legalInfo": "Legal information"
+  },
+  "quotes": {
+    "1": "Cash flow should not be endured. It should be managed.",
+    "2": "An unpaid invoice is information. A managed due date is a decision.",
+    "3": "Understanding receivables helps prepare collections.",
+    "4": "The right decision starts with reliable information.",
+    "5": "Your business deserves better than scattered tracking."
+  },
+  "modules": {
+    "overview": {
+      "title": "Overview",
+      "description": "Conceptual mock-up of an “amounts due” view and its proposed statuses.",
+      "access": "Fictional preview — no operational application."
+    },
+    "treasury": {
+      "title": "Treasury",
+      "description": "Simple collection indicators envisioned for the initial scope."
+    },
+    "invoices": {
+      "title": "Invoices",
+      "description": "Invoice and due-date centralization and follow-up envisioned for the initial scope."
+    },
+    "clients": {
+      "title": "Clients",
+      "description": "Customer import or entry envisioned for the initial scope.",
+      "access": "Reference scope envisioned for FREE and STARTER."
+    },
+    "collections": {
+      "title": "Collections",
+      "description": "Priority list, message templates and history envisioned; automated sending is not announced.",
+      "access": "Plan allocation envisioned between STARTER and BUSINESS."
+    },
+    "risk": {
+      "title": "Risk",
+      "description": "Risk analysis is envisioned for a later evolution; not available at this stage."
+    },
+    "forecasts": {
+      "title": "Forecasts",
+      "description": "Collection forecasts are envisioned after validation; not in the initial scope."
+    },
+    "payments": {
+      "title": "Payments",
+      "description": "Recording partial or complete payments is envisioned; no payment integration is announced."
+    },
+    "automations": {
+      "title": "Automations",
+      "description": "Automation is envisioned after product validation; no automatic sending is announced.",
+      "access": "A future plan allocation is envisioned; not available at this stage."
+    },
+    "events": {
+      "title": "Events",
+      "description": "History of follow-ups, replies, promises and payments envisioned for the initial scope."
+    }
+  },
+  "contact": {
+    "title": "Contact channel availability.",
+    "metaDescription": "Check the availability of VERQIA’s official contact channels.",
+    "eyebrow": "Contact",
+    "channelsHeading": "Channel status",
+    "channelsMissing": "No direct contact channel is published on this site.",
+    "channelsMissingBadge": "",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "calendly": "Calendly"
+    },
+    "newTab": "(opens in a new tab)",
+    "reassuranceHeading": "",
+    "responseTarget": "",
+    "pilotOffer": "",
+    "titleLead": "Contact channels",
+    "titleAccent": "to be confirmed.",
+    "whatsappPrefill": "Hello, I would like to learn more about VERQIA PILOT.",
+    "sourceLine": "Source: {source}",
+    "emailSubject": "Question about VERQIA",
+    "emailSubjectWithSource": "VERQIA enquiry — {source}",
+    "emailPrefill": "Hello,\n\nI would like to learn more about VERQIA PILOT.",
+    "floatingWhatsapp": "Contact VERQIA on WhatsApp"
+  },
+  "home": {
+    "hero": {
+      "metadataTitle": "VERQIA PILOT — Receivables cycle management",
+      "eyebrow": "RECEIVABLES CYCLE MANAGEMENT",
+      "titleLine1": "An issued invoice",
+      "titleLine2": "is not yet",
+      "titleAccent": "cash.",
+      "subtitle": "VERQIA PILOT is designed to help SMEs organize receivables follow-up, due dates and collection actions.",
+      "primaryCta": "Explore the product scope",
+      "secondaryCta": "View the conceptual mock-up",
+      "microcopy": "VERQIA PILOT is validating the need. This preview is conceptual and is not an operational service.",
+      "annotation": "Fictional data",
+      "imageAlt": "Conceptual VERQIA PILOT dashboard mock-up with fictional data."
+    },
+    "video": {
+      "eyebrow": "BRAND IDENTITY",
+      "title": "VERQIA PILOT in motion",
+      "playLabel": "Play the VERQIA PILOT brand animation"
+    },
+    "problem": {
+      "eyebrow": "THE CHALLENGE",
+      "title": "Receivables follow-up is easily scattered.",
+      "body": "Invoices spread across files and software, due dates spotted late, reminders handled one by one: when information is scattered, it becomes harder to see what is expected and which actions should come first.",
+      "cards": [
+        "Invoices and customer information spread across several tools.",
+        "Due dates identified too late.",
+        "Manual follow-ups without a centralized history."
+      ]
+    },
+    "solution": {
+      "eyebrow": "PROPOSED SCOPE",
+      "titleLead": "From invoice to cash.",
+      "titleAccent": "With a structured approach.",
+      "intro": "The initial VERQIA PILOT scope is organized around four functions: centralize, prioritize, follow up and record.",
+      "indexLabel": "Four functions envisioned for VERQIA PILOT",
+      "benefits": {
+        "centralize": {
+          "title": "Centralize",
+          "body": "Find invoices, clients and due dates in one place.",
+          "problem": "Customer information, invoices and due dates are spread across different places.",
+          "action": "The initial scope plans to bring them together in one follow-up space.",
+          "value": "Find outstanding receivables more easily."
+        },
+        "understand": {
+          "title": "Prioritize",
+          "body": "Analyze collections and situations that may need attention.",
+          "problem": "It is not always clear which receivable to handle first.",
+          "action": "Identify overdue invoices, approaching due dates and actions to take.",
+          "value": "Organize collection work around visible priorities."
+        },
+        "anticipate": {
+          "title": "Follow up",
+          "body": "Visualize due dates and forecasts.",
+          "problem": "Follow-ups are often repetitive and handled one at a time.",
+          "action": "Structure follow-up and prepare message templates; automated sending is not announced.",
+          "value": "Use a more consistent and traceable follow-up approach."
+        },
+        "decide": {
+          "title": "Track",
+          "body": "Organize actions with the VERQIA decision engine.",
+          "problem": "Replies, payment promises and payments can get lost across scattered exchanges.",
+          "action": "Record replies, promises to pay and payments entered in the system.",
+          "value": "Keep a history to better observe collections over time."
+        }
+      },
+      "labels": {
+        "problem": "The problem",
+        "action": "Planned action",
+        "value": "Intended value"
+      },
+      "outcomesTitle": "What this approach aims to improve",
+      "outcomesIntro": "These are expected benefits to measure during initial pilots; no gain is guaranteed at this stage.",
+      "outcomes": [
+        "Reduce time spent on repetitive follow-ups.",
+        "Improve visibility into amounts still due.",
+        "Track due dates more consistently.",
+        "Base decisions on the information available.",
+        "Observe changes in receivables and collections."
+      ]
+    },
+    "engine": {
+      "eyebrow": "ENVISIONED EVOLUTION",
+      "title": "Decision support built on explicit rules.",
+      "body": "The decision engine is part of the product roadmap. Its rules still need to be documented and validated; no automated analysis is presented as operational.",
+      "link": "Explore the decision engine",
+      "accessLabel": "Reference scope envisioned for",
+      "business": "Business",
+      "enterprise": "Enterprise"
+    },
+    "finalCta": {
+      "title": "Clearer follow-up starts with the right information.",
+      "pilotOffer": "VERQIA PILOT is validating the need. Explore the envisioned product journey.",
+      "pilotCta": "Explore VERQIA PILOT",
+      "freeCta": "View the conceptual mock-up"
+    },
+    "dashboard": {
+      "alt": "Conceptual VERQIA PILOT dashboard mock-up with fictional data.",
+      "fictional": "Fictional data",
+      "workspace": "YOUR SPACE",
+      "overview": "Overview",
+      "invoices": "Invoices",
+      "clients": "Clients",
+      "fictitiousItems": "fictional items",
+      "recentItems": "Recent items",
+      "viewAll": "View all",
+      "invoice": "Fictional invoice",
+      "phoneTitle": "To follow up",
+      "browserAlt": "Conceptual VERQIA PILOT dashboard mock-up in a browser window. Fictional data.",
+      "browserUrl": "Conceptual mock-up",
+      "brandLabel": "VERQIA PILOT"
+    },
+    "placeholder": ""
+  },
+  "productHub": {
+    "metadataTitle": "VERQIA PILOT — Product",
+    "title": "VERQIA PILOT",
+    "eyebrow": "BRAND ANIMATION",
+    "videoLabel": "Play the VERQIA PILOT brand animation",
+    "journeyEyebrow": "CONCEPTUAL SCOPE",
+    "journeyTitle": "Functions and plans still to be validated.",
+    "whatYouGet": "Plan direction",
+    "quotas": "Reference quotas to confirm",
+    "featured": "Reference plan",
+    "customQuota": "Scope to define after needs are validated",
+    "discoverMore": "Explore the modules, decision engine and demo",
+    "quota": {
+      "users": "{count, plural, one {# user} other {# users}}",
+      "invoicesTotal": "{count, plural, one {# invoice total} other {# invoices total}}",
+      "invoicesMonthly": "{count, plural, one {# invoice / month} other {# invoices / month}}",
+      "clientsTotal": "{count, plural, one {# client total} other {# clients total}}",
+      "clients": "{count, plural, one {# client} other {# clients}}"
+    },
+    "plans": {
+      "free": {
+        "description": "A discovery plan is being considered; no operational account or working quota is presented as available."
+      },
+      "starter": {
+        "description": "Envisioned initial scope: follow-up for customers, invoices, due dates and recorded payments."
+      },
+      "business": {
+        "description": "Envisioned evolutions: prioritization, analysis and decision support; not available at this stage."
+      },
+      "enterprise": {
+        "description": "Custom scope to define after needs are validated; integrations and support remain to be specified."
+      }
+    },
+    "journeyUnavailableTitle": "No commercial plan or capacity is published.",
+    "journeyUnavailableDescription": "Plan and quota assumptions remain internal. This presentation describes only an envisioned product scope."
+  },
+  "modulesPage": {
+    "eyebrow": "MODULES",
+    "title": "VERQIA PILOT modules",
+    "subtitle": "These modules describe the envisioned product scope and its reference plan allocation. They are not available as an operational service at this stage.",
+    "availableFrom": "Envisioned allocation in {plan}"
+  },
+  "decisionEngine": {
+    "metadataTitle": "VERQIA — Decision engine",
+    "eyebrow": "PRODUCT ROADMAP",
+    "titleLead": "Decision support",
+    "titleStruck": "",
+    "titleMiddle": "",
+    "titleAccent": "still needs validation.",
+    "explanation": "The decision engine is part of the envisioned scope. Its rules still need to be documented; the examples below are fictional and do not evaluate real data.",
+    "accessLabel": "Plan allocation envisioned for",
+    "and": "and",
+    "business": "Business",
+    "enterprise": "Enterprise",
+    "decisions": {
+      "proceed": {
+        "title": "PROCEED",
+        "meaning": "Authorize or continue an operation."
+      },
+      "defer": {
+        "title": "DEFER",
+        "meaning": "Postpone an operation."
+      },
+      "suspend": {
+        "title": "SUSPEND",
+        "meaning": "Temporarily interrupt an operation."
+      },
+      "exception": {
+        "title": "EXCEPTION",
+        "meaning": "Apply a controlled exceptional authorization."
+      }
+    },
+    "demo": {
+      "eyebrow": "INTERACTIVE EXAMPLE",
+      "title": "Explore a fictional decision",
+      "fictional": "Fictional data",
+      "selectInvoice": "Select a fictional invoice",
+      "invoice": "Fictional invoice",
+      "resultLabel": "Simulated decision",
+      "explanationNote": "Fictional example only: the engine does not evaluate real data.",
+      "decisions": {
+        "proceed": "PROCEED",
+        "defer": "DEFER",
+        "suspend": "SUSPEND",
+        "exception": "EXCEPTION"
+      },
+      "reasons": {
+        "proceed": "In this fictional example, the required information is present, so the operation may continue.",
+        "defer": "In this fictional example, one item needs checking before proceeding.",
+        "suspend": "In this fictional example, the simulated rule calls for a temporary pause.",
+        "exception": "In this fictional example, an exceptional authorization must be explicitly controlled."
+      }
+    }
+  },
+  "demoPage": {
+    "eyebrow": "CONCEPTUAL PREVIEW",
+    "title": "A mock-up of the envisioned receivables workflow.",
+    "description": "VERQIA PILOT’s product brief describes an “amounts due” view to be designed. The screen below is a mock-up with fictional data, not an available feature; the service is not operational yet.",
+    "cta": "Explore the envisioned journey",
+    "previewTitle": "Example “amounts due” dashboard",
+    "fictional": "Fictional data — mock-up",
+    "browserUrl": "Conceptual mock-up",
+    "fictionalNote": "This mock-up illustrates the planned “amounts due” dashboard. Its data is fictional and it does not represent an available application.",
+    "lockedLabel": "Items included in the envisioned initial scope",
+    "lockedFeatures": {
+      "dueDates": "Due-date tracking envisioned",
+      "payments": "Payment recording envisioned",
+      "collections": "Collection action organization envisioned"
+    },
+    "modal": {
+      "eyebrow": "Locked feature",
+      "title": "This feature is part of VERQIA Starter…",
+      "description": "Explore the features included in the Starter plan.",
+      "cta": "Discover Starter",
+      "close": "Close dialog"
+    }
+  },
+  "pricingPage": {
+    "eyebrow": "PRICING",
+    "title": "Commercial scope under validation.",
+    "description": "No price, commercial quota or subscription is offered in this presentation. Existing assumptions remain internal and are not an offer.",
+    "monthly": "Monthly",
+    "annual": "Yearly",
+    "billingSwitch": "Toggle between monthly and annual pricing",
+    "annualOffer": "Pricing indication to be confirmed",
+    "perYear": "FCFA / year",
+    "savings": "Indicative annual price difference: {amount} XOF.",
+    "recommended": "Reference plan to validate",
+    "quote": "Request a quote",
+    "custom": "Custom",
+    "users": "Users (assumption)",
+    "invoices": "Invoices (assumption)",
+    "clients": "Clients (assumption)",
+    "usersUnit": "user",
+    "total": "in total",
+    "clientsUnit": "clients",
+    "plans": {
+      "free": {
+        "name": "FREE",
+        "role": "Envisioned discovery plan",
+        "description": "Conceptual discovery space; no operational demo account is presented as available.",
+        "cta": "View the mock-up",
+        "features": {
+          "workspace": "VERQIA conceptual preview",
+          "quotas": "Indicative reference: 5 invoices and 5 clients",
+          "dashboard": "Dashboard mock-up"
+        },
+        "locked": "Operational features are not available yet.",
+        "upgrade": "Initial scope envisioned from STARTER"
+      },
+      "starter": {
+        "name": "STARTER",
+        "role": "Envisioned initial scope",
+        "description": "Reference plan under consideration for organizing customers, invoices, due dates and payment tracking.",
+        "cta": "Discuss the scope",
+        "features": {
+          "workspace": "Envisioned management scope",
+          "quotas": "Invoices, customers and due dates",
+          "dashboard": "Envisioned initial dashboard"
+        },
+        "locked": "The described scope is not yet offered as an operational service.",
+        "upgrade": "Evolutions envisioned from BUSINESS"
+      },
+      "business": {
+        "name": "BUSINESS",
+        "role": "Envisioned evolutions",
+        "description": "Working scope including forecasts, analysis and decision support in time; not available at this stage.",
+        "cta": "Discuss future evolutions",
+        "features": {
+          "workspace": "Envisioned management evolutions",
+          "quotas": "Analysis and automation envisioned",
+          "dashboard": "Envisioned advanced dashboard"
+        },
+        "locked": "Advanced features still need to be defined and validated.",
+        "upgrade": "Allocation envisioned with ENTERPRISE"
+      },
+      "enterprise": {
+        "name": "ENTERPRISE",
+        "role": "Scope to be defined",
+        "description": "A custom plan is being considered; needs must be validated. Integrations and support are unconfirmed.",
+        "cta": "Discuss your needs",
+        "features": {
+          "workspace": "Customized scope envisioned",
+          "quotas": "Volumes to define",
+          "dashboard": "Dashboard to define"
+        }
+      }
+    },
+    "comparisonEyebrow": "Indicative allocation",
+    "comparisonTitle": "Envisioned scope by plan",
+    "statusNote": "",
+    "comparison": {
+      "caption": "Indicative allocation of envisioned features; no management feature is presented as operational.",
+      "feature": "Feature",
+      "plans": {
+        "free": "FREE",
+        "starter": "STARTER",
+        "business": "BUSINESS",
+        "enterprise": "ENTERPRISE"
+      },
+      "notIncluded": "Not in this scope",
+      "fromPlan": "Scope envisioned from {plan}",
+      "features": {
+        "dashboard": "Dashboard",
+        "invoices": "Operational invoice management",
+        "payments": "Payment tracking",
+        "collections": "Collections",
+        "forecasts": "Forecasts",
+        "risk": "Customer risk analysis",
+        "decisionEngine": "Decision engine",
+        "automations": "Automations",
+        "multisite": "Multi-site / multi-entity",
+        "support": "Support"
+      },
+      "values": {
+        "no": "No",
+        "demo": "Mock-up",
+        "essential": "Initial scope planned",
+        "yes": "Envisioned",
+        "basicManual": "Manual (envisioned)",
+        "intelligent": "To validate",
+        "advanced": "Future evolution",
+        "advancedPlural": "Future evolutions",
+        "limited": "To specify",
+        "custom": "To define",
+        "option": "Under consideration",
+        "dash": "—",
+        "priority": "To define"
+      }
+    },
+    "faqEyebrow": "Frequently asked questions",
+    "faqTitle": "About the plans under consideration",
+    "faq": {
+      "questions": {
+        "free": "Is the FREE plan available?",
+        "difference": "What is the difference between FREE and STARTER?",
+        "change": "Can I change plans?"
+      },
+      "answers": {
+        "free": "Not at this stage. FREE describes a discovery plan under consideration; the mock-up does not provide access to an operational account.",
+        "difference": "FREE describes a conceptual discovery space. STARTER corresponds to the envisioned initial operational scope. Neither is presented as available today.",
+        "change": "Subscription terms and plan changes still need to be defined before commercialization."
+      }
+    },
+    "videoEyebrow": "In brief",
+    "videoTitle": "VERQIA PILOT brand identity",
+    "videoLabel": "Play the VERQIA PILOT brand animation",
+    "videoNote": "Brand animation — not a product feature demonstration.",
+    "contactText": "Not sure which plan fits your needs?",
+    "contactCta": "Contact us",
+    "pricePerMonth": "FCFA / month",
+    "quotaPerMonth": "per month",
+    "unavailableTitle": "No commercial plan is published",
+    "unavailableDescription": "VERQIA PILOT is presented for informational and conceptual purposes. Plans, prices, quotas and terms remain to be validated before any commercial communication."
+  },
+  "resourcesPage": {
+    "eyebrow": "RESOURCES",
+    "title": "Guidance to help you discover VERQIA.",
+    "description": "Find information about the envisioned product scope, current validation work and any future pilot arrangements.",
+    "items": {
+      "faq": {
+        "title": "Frequently asked questions",
+        "description": "Answers to common questions about VERQIA."
+      },
+      "pilot": {
+        "title": "Pilot under consideration",
+        "description": "Whether a pilot will run, and its terms, remain to be confirmed after problem validation."
+      }
+    }
+  },
+  "faqPage": {
+    "eyebrow": "RESOURCES · FAQ",
+    "title": "Frequently asked questions",
+    "description": "Answers about the envisioned scope, reference plans and VERQIA PILOT’s current validation stage.",
+    "count": "{count} questions",
+    "items": {
+      "free": {
+        "question": "Is VERQIA available yet?",
+        "answer": "No. The institutional deck places the project in the problem-validation stage. The website mock-up is conceptual; no receivables-management service is presented as operational."
+      },
+      "difference": {
+        "question": "What is the difference between FREE and STARTER?",
+        "answer": "FREE describes a discovery space under consideration. STARTER corresponds to the envisioned initial operational scope. These plans and their features are not presented as available today."
+      },
+      "business": {
+        "question": "Why choose BUSINESS?",
+        "answer": "Forecasts, risk analysis and the decision engine are envisioned evolutions. They are not presented as operational features."
+      },
+      "accounting": {
+        "question": "Does VERQIA replace accounting software?",
+        "answer": "No. VERQIA PILOT is designed as a specialized layer that complements existing tools. No technical integration with those tools is announced as available."
+      },
+      "change": {
+        "question": "Can I change plans?",
+        "answer": "Subscriptions are not being marketed yet. Terms and plan-change conditions still need to be defined."
+      },
+      "sector": {
+        "question": "Is VERQIA suitable for my industry?",
+        "answer": "Validation initially focuses on B2B micro and small-to-medium businesses that sell on credit and regularly track receivables. The sectors listed are target segments, not client references or delivered adaptations."
+      },
+      "demo": {
+        "question": "Can I request a demonstration?",
+        "answer": "The website shows a conceptual mock-up with fictional data, not a demonstration of an operational product. Any pilot arrangements remain to be confirmed."
+      }
+    }
+  },
+  "pilotPage": {
+    "eyebrow": "PILOT UNDER CONSIDERATION",
+    "title": "A test phase to define after validating the need.",
+    "description": "VERQIA PILOT is validating the need. No operational pilot, date, duration or price is confirmed on this page.",
+    "offerStatus": "Whether a pilot will run, and its terms, remain to be confirmed.",
+    "terms": "Scope, duration, access and measurement criteria must be defined before any pilot.",
+    "responseTime": "",
+    "cta": "Request information",
+    "steps": {
+      "contact": {
+        "title": "Review the scope",
+        "description": "Understand the need being addressed and the envisioned product journey."
+      },
+      "scope": {
+        "title": "Define the conditions",
+        "description": "Scope, duration and measurement criteria still need to be confirmed."
+      },
+      "explore": {
+        "title": "Test if the framework is approved",
+        "description": "A test can only start once a prototype is available and participating businesses have agreed."
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "ABOUT",
+    "title": "Behind VERQIA, one ambition: make receivables management more intelligent.",
+    "description": "We are building a new approach to receivables monitoring and collections management, so businesses can better organize their collection cycle.",
+    "heroVisualLabel": "Receivables journey — editorial illustration",
+    "founder": {
+      "eyebrow": "A FOUNDING CONVICTION",
+      "title": "A word from the founder",
+      "photoAlt": "Portrait of {name}",
+      "photoPending": "Portrait to be supplied",
+      "photoCaption": "Photograph supplied for the institutional presentation.",
+      "role": "Founder of VERQIA",
+      "paragraphOne": "VERQIA was born from a conviction: businesses should be able to better master the journey between an invoice and its collection.",
+      "paragraphTwo": "We set out to design a solution that does more than track invoices: it helps businesses organize their actions, better understand their receivables and improve their visibility over expected collections.",
+      "paragraphThree": "Our ambition is to make collections management more accessible, more structured and more relevant for small and medium-sized businesses.",
+      "paragraphFour": "VERQIA is an adventure built around a vision: give businesses the means to manage their cash flow with more method and intelligence.",
+      "quote": "We do not want to create software that businesses find interesting. We want to create a tool whose financial value they can see and that they choose to pay for every month.",
+      "signaturePending": "Founder name and title to be completed before publication."
+    },
+    "purpose": {
+      "eyebrow": "OUR DIRECTION",
+      "title": "A simple direction, demanding work.",
+      "visionLabel": "OUR VISION",
+      "vision": "Make receivables management a genuine lever of financial control for businesses.",
+      "missionLabel": "OUR MISSION",
+      "mission": "Design accessible, structured tools that simplify invoice follow-up, follow-ups and visibility over collections."
+    },
+    "values": {
+      "eyebrow": "OUR VALUES",
+      "title": "The principles that set the tone.",
+      "items": {
+        "clarity": {
+          "title": "Clarity",
+          "description": "Make financial information easier to read so teams can choose the next action."
+        },
+        "reliability": {
+          "title": "Reliability",
+          "description": "Prioritize structured, understandable and verifiable reference points."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "description": "Explore useful approaches without adding needless complexity."
+        },
+        "mastery": {
+          "title": "Control",
+          "description": "Give teams a better hold on the follow-up of their receivables."
+        }
+      }
+    },
+    "partners": {
+      "eyebrow": "ECOSYSTEM",
+      "title": "An ecosystem focused on smarter management.",
+      "description": "Future collaborations will appear here once they have been validated and the required approvals are in place.",
+      "carouselLabel": "Demo graphic identities strip",
+      "demoNotice": "Fictional demo graphic identities: they do not represent VERQIA partners or customers.",
+      "marks": {
+        "01": "HORIZON 01",
+        "02": "AXIS 02",
+        "03": "LANDMARK 03",
+        "04": "ORIGIN 04",
+        "05": "GRID 05",
+        "06": "LINE 06"
+      }
+    },
+    "team": {
+      "eyebrow": "THE TEAM",
+      "title": "The people behind the vision.",
+      "description": "A multidisciplinary team is envisioned to build, test and evolve a useful management experience.",
+      "demoNotice": "Profiles, names, roles and portraits are generated for demonstration. They do not represent real staff members and must be replaced before publication.",
+      "carouselLabel": "VERQIA team demo profiles",
+      "previous": "Show previous profiles",
+      "next": "Show next profiles",
+      "cardLabel": "Demo profile {index} of {count}",
+      "members": {
+        "leadership": {
+          "name": "Aïda Kori",
+          "role": "General management",
+          "bio": "Demo profile illustrating leadership committed to VERQIA’s vision and direction.",
+          "imageAlt": "Demo portrait of Aïda Kori"
+        },
+        "product": {
+          "name": "Nolan Évia",
+          "role": "Product and innovation",
+          "bio": "Demo profile representing the translation of field needs into product journeys.",
+          "imageAlt": "Demo portrait of Nolan Évia"
+        },
+        "engineering": {
+          "name": "Maëlle Soroa",
+          "role": "Software engineering",
+          "bio": "Demo profile illustrating the design of robust, accessible digital experiences.",
+          "imageAlt": "Demo portrait of Maëlle Soroa"
+        },
+        "finance": {
+          "name": "Djamal N’Zi",
+          "role": "Finance and strategy",
+          "bio": "Demo profile representing attention to management and steering needs.",
+          "imageAlt": "Demo portrait of Djamal N’Zi"
+        },
+        "experience": {
+          "name": "Lina Kora",
+          "role": "User experience",
+          "bio": "Demo profile embodying the search for clarity in every interaction.",
+          "imageAlt": "Demo portrait of Lina Kora"
+        },
+        "customer": {
+          "name": "Éli Nawa",
+          "role": "Customer relations",
+          "bio": "Demo profile illustrating listening and support for future users.",
+          "imageAlt": "Demo portrait of Éli Nawa"
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "TESTIMONIALS",
+      "title": "Feedback to publish rigorously.",
+      "pending": "No customer testimonial or commercial outcome is shown until the content, approvals and publishing context have been validated."
+    },
+    "geographyTitle": "Geographic coverage",
+    "city": "City",
+    "country": "Country",
+    "domain": "Official domain",
+    "videoTitle": "Founder video"
+  },
+  "securityPage": {
+    "eyebrow": "SECURITY AND TRUST",
+    "title": "Security and trust",
+    "description": "An overview of the security principles considered for VERQIA PILOT.",
+    "disclaimer": "No external security certification or independent audit is claimed on this site.",
+    "bankNotice": "VERQIA is not a bank or financial institution.",
+    "topics": {
+      "protection": {
+        "title": "Data protection",
+        "description": "Cookie preferences are stored locally in the browser. No non-essential analytics or advertising trackers are enabled."
+      },
+      "hosting": {
+        "title": "Hosting",
+        "description": "This site serves the VERQIA PILOT presentation and its media assets."
+      },
+      "access": {
+        "title": "Access and roles",
+        "description": "Account access depends on the authentication provider being configured."
+      },
+      "traceability": {
+        "title": "Decision logging",
+        "description": "The public presentation does not provide an operational audit log for business actions."
+      }
+    },
+    "referencesTitle": "Legal texts and authorities",
+    "referenceNote": "The references below are primary sources for the cited legal and security topics.",
+    "officialText": "View the official source",
+    "legalReferences": {
+      "dataProtection": {
+        "title": "Law No. 2013-450 of 19 June 2013 — personal data",
+        "description": "It governs data processing, transparency, individual rights and transfers to third countries. Consult ARTCI and Ivorian counsel to identify applicable formalities."
+      },
+      "electronicTransactions": {
+        "title": "Law No. 2013-546 of 30 July 2013 — electronic transactions",
+        "description": "Article 40 provides for retaining electronic documents for ten years, unless another law sets a shorter period. This is not a general ten-year retention period for all personal data."
+      },
+      "cybercrime": {
+        "title": "Law No. 2013-451 of 19 June 2013 — cybercrime",
+        "description": "Reference law on cybercrime; read together with its subsequent amendments."
+      },
+      "cybercrimeAmendment": {
+        "title": "Law No. 2023-593 of 7 June 2023 — cybercrime amendment",
+        "description": "Amends several articles of Law No. 2013-451. Consult the official text and relevant consolidations."
+      },
+      "informationSociety": {
+        "title": "Law No. 2017-803 of 7 December 2017 — information society",
+        "description": "Framework law orienting the information society in Côte d’Ivoire."
+      },
+      "electronicServicesOrdinance": {
+        "title": "Ordinance No. 2024-950 of 30 October 2024",
+        "description": "Legislation concerning electronic services. Consult the official source for its scope."
+      },
+      "dataProtectionForms": {
+        "title": "Personal-data formalities",
+        "description": "Consult the official forms and guidance of the Data Protection Authority; verify the formalities applicable to processing and transfers."
+      },
+      "anssiMissions": {
+        "title": "Missions of ANSSI Côte d’Ivoire",
+        "description": "Institutional source on the responsibilities of the national information-systems security agency."
+      }
+    }
+  },
+  "legalPage": {
+    "eyebrow": "WORKING DOCUMENT",
+    "reviewNotice": "These pages describe the practices and functions visible on this site. They are not legal advice.",
+    "fieldsTitle": "Publisher information",
+    "bankNotice": "VERQIA is not a bank or financial institution.",
+    "fields": {
+      "companyName": "Company legal name",
+      "legalForm": "Legal form",
+      "registeredOffice": "Registered office",
+      "rccm": "RCCM registration number",
+      "capital": "Share capital (if applicable)",
+      "taxId": "Tax account / tax identification number",
+      "legalRepresentative": "Legal representative",
+      "contactEmail": "Business email",
+      "contactPhone": "Business phone",
+      "publicationDirector": "Publication director",
+      "hostName": "Hosting provider name",
+      "hostAddress": "Hosting provider address",
+      "hostContact": "Hosting provider contact",
+      "controller": "Data controller",
+      "purposes": "Processing purposes",
+      "dataCategories": "Data categories",
+      "recipients": "Recipients (host, email service and others)",
+      "retention": "Retention periods by purpose",
+      "rightsContact": "Contact for rights requests",
+      "transferCountries": "Countries and methods for transfers outside Côte d’Ivoire",
+      "processors": "Processors",
+      "serviceScope": "Service description and scope",
+      "accessRules": "Access and use terms",
+      "responsibility": "Allocation of responsibilities",
+      "data": "Data and related responsibilities",
+      "applicableLaw": "Applicable law",
+      "courts": "Competent courts",
+      "taxStatus": "Prices HT or TTC and tax status",
+      "payment": "Payment methods, due dates and terms",
+      "termination": "Termination and its effects",
+      "cookieTypes": "Types of cookies and trackers used",
+      "cookiePurposes": "Purposes of cookies and trackers",
+      "cookieDuration": "Retention periods",
+      "consentMethod": "Prior consent and withdrawal method",
+      "intellectualProperty": "Intellectual property rights"
+    },
+    "pages": {
+      "mentions-legales": {
+        "title": "Legal notice",
+        "intro": "General information about the VERQIA PILOT project."
+      },
+      "confidentialite": {
+        "title": "Privacy policy",
+        "intro": "Information about data and cookie preferences on this site.",
+        "sections": [
+          "data",
+          "purpose",
+          "recipients",
+          "retention",
+          "rights"
+        ]
+      },
+      "cgu": {
+        "title": "Terms of use",
+        "intro": "Terms for using the VERQIA PILOT presentation site.",
+        "sections": [
+          "service",
+          "access"
+        ]
+      },
+      "cgv": {
+        "title": "Terms and conditions of sale",
+        "intro": "Information about the VERQIA PILOT plans and displayed prices.",
+        "sections": [
+          "service",
+          "offers"
+        ]
+      },
+      "cookies": {
+        "title": "Cookie policy",
+        "intro": "How this site stores and applies your cookie preferences.",
+        "sections": [
+          "purpose",
+          "types",
+          "duration",
+          "choices"
+        ]
+      }
+    },
+    "sections": {
+      "mentions-legales": {
+        "publisher": {
+          "title": "Publisher and legal representative",
+          "body": "VERQIA PILOT is the product name used on this site."
+        },
+        "hosting": {
+          "title": "Hosting",
+          "body": "The site serves the VERQIA PILOT presentation and its media assets."
+        },
+        "intellectualProperty": {
+          "title": "Intellectual property",
+          "body": "The site presents VERQIA brand elements and resources supplied for this project."
+        },
+        "law": {
+          "title": "Applicable law and courts",
+          "body": "This page is informational and does not constitute legal advice."
+        }
+      },
+      "confidentialite": {
+        "data": {
+          "title": "Who processes data and which data?",
+          "body": "Cookie preference choices are stored locally in the browser."
+        },
+        "purpose": {
+          "title": "Why is data processed?",
+          "body": "Local storage is used to remember whether optional cookie categories are allowed."
+        },
+        "recipients": {
+          "title": "Who receives the data?",
+          "body": "No non-essential analytics or advertising provider is enabled on this site."
+        },
+        "retention": {
+          "title": "Personal-data retention periods",
+          "body": "The preference remains in this browser until site data is cleared or the choice is changed."
+        },
+        "electronicArchive": {
+          "title": "Electronic-document archiving",
+          "body": ""
+        },
+        "transfers": {
+          "title": "Transfers outside Côte d’Ivoire",
+          "body": ""
+        },
+        "rights": {
+          "title": "Individual rights and contact",
+          "body": "You can change or clear the saved preference from the cookie settings on this site."
+        }
+      },
+      "cgu": {
+        "service": {
+          "title": "Service description",
+          "body": "This site presents VERQIA PILOT and does not provide access to operational financial-management functions."
+        },
+        "access": {
+          "title": "Access and use",
+          "body": "Account access is available only when the authentication provider is configured."
+        },
+        "responsibility": {
+          "title": "Responsibilities",
+          "body": ""
+        },
+        "data": {
+          "title": "Data and retention",
+          "body": ""
+        },
+        "law": {
+          "title": "Applicable law and disputes",
+          "body": ""
+        }
+      },
+      "cgv": {
+        "service": {
+          "title": "Services sold",
+          "body": "The plans describe the VERQIA PILOT offer. No payment or paid subscription is processed from this presentation site."
+        },
+        "offers": {
+          "title": "Plans and prices",
+          "body": "The displayed prices and quotas follow the values configured for this version. The Enterprise plan is quoted individually."
+        },
+        "payment": {
+          "title": "Billing and payment",
+          "body": ""
+        },
+        "termination": {
+          "title": "Termination",
+          "body": ""
+        },
+        "responsibility": {
+          "title": "Responsibilities",
+          "body": ""
+        },
+        "data": {
+          "title": "Customer data",
+          "body": ""
+        },
+        "law": {
+          "title": "Applicable law and courts",
+          "body": ""
+        }
+      },
+      "cookies": {
+        "purpose": {
+          "title": "Purpose of this policy",
+          "body": "Cookie preferences are used to remember your choices on this site."
+        },
+        "types": {
+          "title": "Types and purposes",
+          "body": "Only the preference setting is stored locally. No non-essential analytics or advertising tracker is enabled."
+        },
+        "duration": {
+          "title": "Retention periods",
+          "body": "The setting remains in local browser storage until you clear site data or change your choice."
+        },
+        "choices": {
+          "title": "Consent and choices",
+          "body": "Use the cookie settings control on this page to change your choice. Optional categories remain off unless you enable them."
+        }
+      }
+    },
+    "pricesTitle": "Indicative plan prices",
+    "pricesNote": "Amounts are shown in CFA francs.",
+    "pricesCaption": "Prices by plan, in CFA francs.",
+    "plan": "Plan",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "priceMonth": "FCFA / month",
+    "priceYear": "FCFA / year",
+    "quote": "By quote",
+    "pricesTax": ""
+  },
+  "solutionsPage": {
+    "eyebrow": "SOLUTIONS",
+    "title": "A focused need: receivables follow-up for B2B SMEs.",
+    "description": "The initial brief focuses on B2B micro and small-to-medium businesses that sell on credit and regularly track receivables. The activities below are target segments for field validation, not client references or proof of an adaptation already delivered.",
+    "audiencesTitle": "Segments envisioned for field validation",
+    "audiences": {
+      "items": {
+        "commerce": "Distributors and wholesalers",
+        "professionalServices": "B2B services, agencies and firms",
+        "startups": "Maintenance and rental businesses",
+        "smes": "B2B micro and small-to-medium businesses",
+        "b2b": "Construction and suppliers",
+        "wholesalers": "SMEs with sales teams",
+        "largeOrganizations": "Other B2B segments to validate"
+      },
+      "images": {
+        "commerce": "Image to be provided — commerce and distribution",
+        "professionalServices": "Image to be provided — professional services firms",
+        "startups": "Image to be provided — startups",
+        "smes": "Image to be provided — SMEs",
+        "b2b": "Image to be provided — B2B businesses",
+        "wholesalers": "Image to be provided — wholesalers and supermarkets",
+        "largeOrganizations": "Image to be provided — large organizations"
+      }
+    },
+    "simulations": {
+      "eyebrow": "ILLUSTRATIVE SCENARIOS",
+      "title": "Illustrative business scenarios",
+      "illustrativeLabel": "Illustrative simulation, not a client result",
+      "overdue": "Overdue invoices",
+      "followUp": "Follow-up time",
+      "amount": "Simulated amount",
+      "millions": "M FCFA",
+      "duration": "Simulated duration: {weeks} weeks",
+      "illustrativeDisclaimer": "Illustrative scenarios, not customer results. Figures shown are not verified outcomes.",
+      "scenarios": {
+        "distribution-grossiste": {
+          "title": "Distribution and wholesale",
+          "context": "Simulated scenario"
+        },
+        "services-b2b": {
+          "title": "B2B services",
+          "context": "Simulated scenario"
+        },
+        "pme-btp": {
+          "title": "SME in construction",
+          "context": "Simulated scenario"
+        }
+      }
+    }
+  },
+  "announcement": {
+    "label": "VERQIA announcement",
+    "offer": "VERQIA PILOT — financial management",
+    "cta": "Explore VERQIA",
+    "close": "Close announcement"
+  },
+  "scroll": {
+    "progressLabel": "Reading progress",
+    "toTop": "Back to top"
+  },
+  "cookieConsent": {
+    "title": "Your cookie preferences",
+    "description": "No non-essential tracker is enabled without your choice. Your preference is stored locally on this device.",
+    "policyLink": "Cookie policy",
+    "necessary": "Essential",
+    "alwaysOn": "Always active",
+    "analytics": "Audience measurement",
+    "marketing": "Marketing",
+    "acceptAll": "Accept all",
+    "essentialOnly": "Reject optional",
+    "customize": "Customize",
+    "save": "Save my choices",
+    "manage": "Manage preferences"
+  },
+  "loading": {
+    "label": "Loading content"
+  },
+  "errors": {
+    "notFoundTitle": "This page does not exist",
+    "notFoundBody": "The link may be incorrect or the page may have moved.",
+    "home": "Back to home",
+    "errorTitle": "Something went wrong",
+    "errorBody": "Please try again. If the problem persists, come back shortly.",
+    "retry": "Try again"
+  },
+  "auth": {
+    "loginTitle": "Welcome back.",
+    "loginDescription": "Sign in to your VERQIA PILOT space.",
+    "signupTitle": "Create your space.",
+    "signupDescription": "Start by creating your VERQIA PILOT account.",
+    "forgotTitle": "Reset your access.",
+    "forgotDescription": "Enter the email address associated with your account to receive a reset link.",
+    "newPasswordTitle": "Choose a new password.",
+    "newPasswordDescription": "Your new password must be at least 12 characters long.",
+    "signedInTitle": "You’re signed in.",
+    "signedInAs": "Session open for {email}.",
+    "signedIn": "Sign-in successful.",
+    "signOut": "Sign out",
+    "serviceNotConfigured": "Authentication is not enabled on this preview yet. No account will be created and no session will be started.",
+    "working": "Connecting…",
+    "continueGoogle": "Continue with Google",
+    "continueMicrosoft": "Continue with Microsoft",
+    "orEmail": "or continue with email",
+    "email": "Email address",
+    "password": "Password",
+    "rememberMe": "Keep me signed in on this device",
+    "forgotPassword": "Forgot password?",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "loginButton": "Sign in",
+    "noAccount": "Don’t have an account yet?",
+    "createAccount": "Create an account",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "company": "Company",
+    "confirmPassword": "Confirm password",
+    "acceptTerms": "I agree to the",
+    "termsLink": "terms of use",
+    "and": "and the",
+    "privacyLink": "privacy policy",
+    "signupButton": "Create account",
+    "haveAccount": "Already have an account?",
+    "loginLink": "Sign in",
+    "sendReset": "Send reset link",
+    "backToLogin": "Back to sign in",
+    "resetSent": "If an account matches this address, a reset link will be sent.",
+    "resetFailed": "The request could not be completed. Check the configuration and try again.",
+    "passwordUpdated": "Your password has been updated.",
+    "newPassword": "New password",
+    "updatePassword": "Update password",
+    "loginFailed": "Unable to sign in. Check your credentials and try again.",
+    "signupFailed": "Account creation failed. Check the information and try again.",
+    "accountCreated": "Your account has been created.",
+    "confirmEmail": "Check your inbox to confirm your email address.",
+    "validation": {
+      "email": "Enter a valid email address.",
+      "password": "Enter your password.",
+      "passwordRequired": "Enter your password.",
+      "firstName": "Enter your first name.",
+      "lastName": "Enter your last name.",
+      "company": "Enter your company name.",
+      "passwordLength": "Password must be at least 12 characters long.",
+      "passwordMismatch": "Passwords do not match.",
+      "terms": "Accept the terms to continue.",
+      "invalidForm": "Check the form fields."
+    },
+    "providerFailed": "The identity provider rejected the request. Check its Supabase configuration.",
+    "brandStoryLabel": "About VERQIA PILOT",
+    "backHome": "Back to home",
+    "eyebrow": "VERQIA PILOT PRESENTATION",
+    "storyTitle": "A presentation under validation.",
+    "storyDescription": "VERQIA PILOT presents an envisioned scope, without an operational user workspace.",
+    "storyNote": "No account or authenticated access is available in this version.",
+    "formLabel": "Availability information",
+    "unavailableTitle": "User access is not available",
+    "unavailableDescription": "This version is an informational, conceptual presentation. No account or sign-in method is offered.",
+    "unavailableLabel": "Access availability"
+  },
+  "productWorkflow": {
+    "eyebrow": "ENVISIONED PRODUCT JOURNEY",
+    "title": "A follow-up cycle from invoice to collection.",
+    "intro": "The planned journey to help teams organize receivables, one step at a time.",
+    "statusNote": "VERQIA PILOT is currently validating the need. This journey describes the envisioned initial scope, not an operational application.",
+    "steps": {
+      "centralize": {
+        "title": "Centralize",
+        "body": "Bring customer information, invoices and due dates into one follow-up view."
+      },
+      "identify": {
+        "title": "Identify due dates",
+        "body": "See upcoming, approaching or overdue dates based on recorded information."
+      },
+      "prioritize": {
+        "title": "Spot priorities",
+        "body": "Bring overdue items, approaching due dates and next actions into focus."
+      },
+      "organize": {
+        "title": "Organize follow-ups",
+        "body": "Structure next steps and prepare message templates, without automating delivery."
+      },
+      "follow": {
+        "title": "Track replies and promises",
+        "body": "Keep a record of replies received and commitments to pay."
+      },
+      "record": {
+        "title": "Record payments",
+        "body": "Enter partial or complete payments in the follow-up record."
+      },
+      "observe": {
+        "title": "Observe collection trends",
+        "body": "Use history and simple indicators envisioned for the initial scope."
+      }
+    },
+    "differentiationTitle": "VERQIA doesn’t replace your tools. It adds to them.",
+    "differentiationBody": "VERQIA PILOT is designed as a specialized layer to structure the passage from invoice to collection. This complementarity does not mean that technical connections to management tools, payment methods or communication channels are already available.",
+    "limitations": "Forecasts, advanced analysis, automated reminders and external integrations are not presented as operational features."
+  }
+}
