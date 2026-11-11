@@ -3,7 +3,7 @@
     "siteName": "VERQIA PILOT",
     "skip": "Aller au contenu",
     "placeholder": "",
-    "validate": "",
+    "validate": "À valider",
     "fakeData": "Données de démonstration",
     "toSupply": "",
     "quotePending": "",
@@ -326,7 +326,11 @@
       "browserUrl": "Maquette conceptuelle",
       "brandLabel": "VERQIA PILOT"
     },
-    "placeholder": ""
+    "placeholder": "",
+    "heroRotate": {
+      "prefix": "Le périmètre envisagé :",
+      "screenReaderSummary": "Le périmètre envisagé comprend quatre fonctions : centraliser, prioriser, relancer et tracer."
+    }
   },
   "productHub": {
     "metadataTitle": "VERQIA PILOT — Produit",
@@ -419,7 +423,8 @@
         "defer": "Dans cet exemple fictif, une information reste à vérifier avant de poursuivre.",
         "suspend": "Dans cet exemple fictif, la règle simulée demande d’interrompre temporairement l’opération.",
         "exception": "Dans cet exemple fictif, une autorisation exceptionnelle doit être explicitement encadrée."
-      }
+      },
+      "analyzing": "Analyse de l’exemple fictif en cours…"
     }
   },
   "demoPage": {
@@ -632,6 +637,13 @@
         "question": "Puis-je demander une démonstration ?",
         "answer": "Le site présente une maquette conceptuelle avec des données fictives, pas une démonstration d’un produit opérationnel. Les modalités d’un éventuel pilote restent à confirmer."
       }
+    },
+    "filters": {
+      "label": "Filtrer les questions",
+      "all": "Toutes",
+      "scope": "Périmètre",
+      "plans": "Formules",
+      "demo": "Démonstration"
     }
   },
   "pilotPage": {
@@ -655,7 +667,9 @@
         "title": "Tester si le cadre est validé",
         "description": "Un test ne pourra commencer qu’après disponibilité d’un prototype et accord des entreprises concernées."
       }
-    }
+    },
+    "stepperLabel": "Étapes du parcours envisagé",
+    "stepPanelLabel": "Étape {step} sur {count}"
   },
   "aboutPage": {
     "eyebrow": "À PROPOS",

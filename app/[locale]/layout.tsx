@@ -25,7 +25,11 @@ const reenie = Reenie_Beanie({ subsets: ['latin'], weight: '400', variable: '--f
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('common');
-  return { title: { default: t('siteName'), template: `%s | ${t('siteName')}` }, robots: { index: indexingEnabled, follow: indexingEnabled } };
+  return {
+    ...(site.domain ? { metadataBase: new URL(site.domain) } : {}),
+    title: { default: t('siteName'), template: `%s | ${t('siteName')}` },
+    robots: { index: indexingEnabled, follow: indexingEnabled },
+  };
 }
 export function generateStaticParams() { return routing.locales.map((locale) => ({ locale })); }
 

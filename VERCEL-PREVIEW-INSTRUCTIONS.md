@@ -1,17 +1,16 @@
-# Vercel preview hand-off
+# VERQIA — snapshot Git-ready pour Preview Vercel uniquement
 
-This archive contains the current VERQIA source snapshot needed to build the Next.js site.
-It excludes `node_modules`, build caches, local uploads, backups, test output and credentials.
+> **Statut : NO-GO Production.** Ce snapshot ne donne aucune autorisation de publication, de domaine, de DNS, d'indexation ou de déploiement Production.
 
-## Preview only
+Après extraction, `package.json`, `app/`, `components/` et `public/` sont à la racine du dépôt.
 
-The Vercel project already created is `verqia-site-preview`.
+1. Extraire l'archive dans un dépôt Git vide.
+2. Commiter et pousser son contenu directement à la racine du dépôt.
+3. Dans Vercel, conserver le **Root Directory vide** (la racine du dépôt).
+4. Créer/pousser une branche non-production, par exemple `preview`.
+5. Déployer uniquement cette branche comme **Preview**. Ne pas utiliser `main` et ne pas promouvoir en Production.
+6. Vérifier que `NEXT_PUBLIC_LOCAL_PRICING_REVIEW=true`, si nécessaire pour la revue, n'est définie que pour Preview. Elle est refusée par le build Production.
 
-1. Extract this archive into a Git repository.
-2. Commit and push the source to a branch (for example `preview`).
-3. In Vercel, connect that repository to `verqia-site-preview`, then create a Preview deployment from the branch.
-4. The project has `NEXT_PUBLIC_LOCAL_PRICING_REVIEW=true` configured for Preview only, so the approved pricing-review presentation appears in that preview. Do not set this value for Production.
+`VERCEL_ENV=production` déclenche le gate obligatoire de release. Sans identité légale officielle, textes juridiques revus, décision D-017, contenus/médias validés et autorisation finale documentée, le build Production doit et va échouer.
 
-No custom domain or DNS setup is required for a Vercel preview URL.
-
-The preview is not approval to publish production. Keep the production target unset until the outstanding launch gates are closed.
+Le snapshot exclut dépendances, sorties de build, caches, uploads locaux, sauvegardes, identifiants et secrets.

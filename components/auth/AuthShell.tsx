@@ -10,7 +10,7 @@ export function AuthShell({ children }: { children: ReactNode }) {
   return <main id="main-content" className="auth-page">
     <section className="auth-page__story" aria-label={t('brandStoryLabel')}>
       <Link href="/" className="auth-page__logo" aria-label={t('backHome')}>
-        <Image src={site.logoSloganPath} alt="" width={216} height={250} priority sizes="(max-width: 900px) 112px, 216px" />
+        <Image src={site.logoSloganPath} alt="" width={216} height={250} priority sizes="(max-width: 900px) 112px, 216px" unoptimized={site.logoSloganPath.startsWith('https://')} />
       </Link>
       <div className="auth-page__story-copy">
         <p className="auth-page__eyebrow">{t('eyebrow')}</p>

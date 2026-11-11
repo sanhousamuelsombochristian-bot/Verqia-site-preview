@@ -31,7 +31,7 @@ export const resourceNav = [
   { key: 'guides', href: '/ressources/guides', ready: false },
 ] as const;
 // Informational first-release CTA: it opens a fictional conceptual mock-up, not a trial.
-export const navCta = { key: 'discoverFree', href: '/produit/demonstration' } as const;
+export const navCta = { key: 'discoverFree', href: '/produit/demonstration?source=header', mobileHref: '/produit/demonstration?source=header-mobile' } as const;
 
 // The footer is the canonical home for security and legal pages (PRD §6.3).
 export const footerNav = {

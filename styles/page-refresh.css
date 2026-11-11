@@ -1,0 +1,28 @@
+/* Full-page refresh: current conceptual scope only, no production claims. */
+.home-hero__rotate { display: flex; flex-wrap: wrap; align-items: baseline; gap: 7px; margin: 15px 0 0; color: #a3a3a3; font-size: .82rem; line-height: 1.45; }
+.home-hero__rotate strong { min-width: 92px; color: #97f201; font: italic 1.12rem/1 var(--font-instrument), serif; }
+
+.decision-demo__analyzing { max-width: 600px; margin: 0; color: #b8b8b8; font: italic 400 1.05rem/1.6 var(--font-instrument), serif; }
+
+.simulation-card__badges { display: flex; flex-wrap: wrap; gap: 7px; }
+
+.faq-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+.faq-filters button { min-height: 38px; padding: 7px 13px; border: 1px solid #d8d6ce; border-radius: 999px; color: #5f5f5f; background: #fff; font: 600 .72rem/1 var(--font-inter), sans-serif; cursor: pointer; transition: border-color .2s ease, background-color .2s ease, color .2s ease; }
+.faq-filters button[aria-pressed='true'] { border-color: #3f7a00; color: #1c1c1c; background: #eaf7d7; }
+
+.pilot-step { width: 100%; color: #151515; text-align: left; cursor: pointer; }
+.pilot-step.is-active { border-color: #97f201; box-shadow: 0 0 0 1px #97f201; }
+.pilot-step-panel { min-height: 134px; display: grid; grid-template-columns: 50px minmax(0, 1fr); gap: 16px; padding: 23px; border: 1px solid #dedbd2; border-radius: 18px; background: #1c1c1c; color: #f5f5f5; }
+.pilot-step-panel > span { color: #97f201; font: italic 1.6rem/1 var(--font-instrument), serif; }
+.pilot-step-panel h2 { margin: 0 0 8px; font: 400 1.65rem/1 var(--font-instrument), serif; }
+.pilot-step-panel p { margin: 0; color: #c4c4c4; font-size: .84rem; line-height: 1.6; }
+
+@media (max-width: 600px) {
+  .home-hero__rotate { margin-top: 13px; }
+  .faq-filters { margin-top: 3px; }
+  .pilot-step-panel { grid-template-columns: 1fr; gap: 10px; padding: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-filters button { transition: none; }
+}

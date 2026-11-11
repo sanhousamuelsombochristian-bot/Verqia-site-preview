@@ -3,7 +3,7 @@
     "siteName": "VERQIA PILOT",
     "skip": "Skip to content",
     "placeholder": "",
-    "validate": "",
+    "validate": "To validate",
     "fakeData": "Demo data",
     "toSupply": "",
     "quotePending": "",
@@ -326,7 +326,11 @@
       "browserUrl": "Conceptual mock-up",
       "brandLabel": "VERQIA PILOT"
     },
-    "placeholder": ""
+    "placeholder": "",
+    "heroRotate": {
+      "prefix": "Envisioned scope:",
+      "screenReaderSummary": "The envisioned scope includes four functions: centralize, prioritize, follow up and track."
+    }
   },
   "productHub": {
     "metadataTitle": "VERQIA PILOT — Product",
@@ -419,7 +423,8 @@
         "defer": "In this fictional example, one item needs checking before proceeding.",
         "suspend": "In this fictional example, the simulated rule calls for a temporary pause.",
         "exception": "In this fictional example, an exceptional authorization must be explicitly controlled."
-      }
+      },
+      "analyzing": "Analyzing the fictional example…"
     }
   },
   "demoPage": {
@@ -632,6 +637,13 @@
         "question": "Can I request a demonstration?",
         "answer": "The website shows a conceptual mock-up with fictional data, not a demonstration of an operational product. Any pilot arrangements remain to be confirmed."
       }
+    },
+    "filters": {
+      "label": "Filter questions",
+      "all": "All",
+      "scope": "Scope",
+      "plans": "Plans",
+      "demo": "Demo"
     }
   },
   "pilotPage": {
@@ -655,7 +667,9 @@
         "title": "Test if the framework is approved",
         "description": "A test can only start once a prototype is available and participating businesses have agreed."
       }
-    }
+    },
+    "stepperLabel": "Steps in the envisioned journey",
+    "stepPanelLabel": "Step {step} of {count}"
   },
   "aboutPage": {
     "eyebrow": "ABOUT",

@@ -4,18 +4,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev --webpack --hostname 0.0.0.0",
-    "build": "node scripts/check-indexing.mjs && next build --webpack && node scripts/check-rendered-placeholders.mjs",
+    "build": "node scripts/check-production-readiness.mjs && node scripts/check-indexing.mjs && next build --webpack && node scripts/check-rendered-placeholders.mjs",
     "start": "next start --hostname 0.0.0.0",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "check:placeholders": "node scripts/check-placeholders.mjs",
-    "test:e2e": "NEXT_PUBLIC_SCROLL_PRESET=balanced npm run build && playwright test",
-    "test:e2e:pricing-review": "NEXT_PUBLIC_SCROLL_PRESET=balanced NEXT_PUBLIC_LOCAL_PRICING_REVIEW=true npm run build && playwright test --config=playwright.pricing-review.config.ts"
+    "test:e2e": "playwright test",
+    "test:e2e:pricing-review": "playwright test --config=playwright.pricing-review.config.ts",
+    "check:production": "node scripts/check-production-readiness.mjs --production",
+    "test:release-gates": "vitest run tests/release-gates.test.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.109.0",
-    "@types/node": "^24.10.0",
     "lenis": "^1.3.27",
     "lucide-react": "^1.70.0",
     "motion": "^14.10.1",
@@ -35,7 +36,8 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4.2.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.0"
+    "vitest": "^4.0.0",
+    "@types/node": "^24.10.0"
   },
   "overrides": {
     "@typescript-eslint/typescript-estree": {

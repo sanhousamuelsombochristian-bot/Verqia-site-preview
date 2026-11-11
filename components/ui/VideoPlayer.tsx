@@ -29,7 +29,7 @@ export function VideoPlayer({ src, mobileSrc, poster, label, captionsFr, caption
       const usePortrait = Boolean(mobileSrc && window.matchMedia('(max-width: 680px)').matches);
       setPlayingSrc(usePortrait ? mobileSrc! : src);
     }} aria-label={label}>
-      {poster && <Image src={poster} alt="" fill sizes="(max-width: 680px) 92vw, 1200px" />}
+      {poster && <Image src={poster} alt="" fill sizes="(max-width: 680px) 92vw, 1200px" unoptimized={poster.startsWith('https://')} />}
       <span className="video-player__button"><Play aria-hidden="true" fill="currentColor" size={18} /></span>
     </button>}
   </div>;

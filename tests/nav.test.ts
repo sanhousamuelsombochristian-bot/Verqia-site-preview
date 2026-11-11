@@ -10,7 +10,11 @@ describe('config/nav — responsive navigation', () => {
     expect(mobileNav.map((item) => item.key)).toEqual(['product', 'offers', 'engine', 'faq', 'solutions', 'about']);
     expect(mobileNav.filter((item) => 'panel' in item).map((item) => item.panel)).toEqual(['product', 'offers', 'engine']);
   });
-  it('keeps the existing preview destination for the expanded CTA', () => {
-    expect(navCta).toEqual({ key: 'discoverFree', href: '/produit/demonstration' });
+  it('keeps preview-only CTA destinations with their attribution source', () => {
+    expect(navCta).toEqual({
+      key: 'discoverFree',
+      href: '/produit/demonstration?source=header',
+      mobileHref: '/produit/demonstration?source=header-mobile',
+    });
   });
 });

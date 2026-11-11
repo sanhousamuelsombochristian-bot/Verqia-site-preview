@@ -88,7 +88,7 @@ export function MobileSheet({ open, onClose, triggerRef }: { open: boolean; onCl
           </div>
         </section> : <Link className="mobile-menu__direct" key={item.key} href={item.href} aria-current={pathname === item.href ? 'location' : undefined} onClick={closeForNavigation}>{t(item.key)}</Link>)}
       </nav>
-      <div className="mobile-menu__cta"><Link className="header-cta" href={navCta.href} onClick={closeForNavigation}><span>{t(navCta.key)}</span><span className="header-cta__arrow" aria-hidden="true"><ArrowRight size={17} /></span></Link></div>
+      <div className="mobile-menu__cta"><Link className="header-cta" href={navCta.mobileHref} onClick={closeForNavigation}><span>{t(navCta.key)}</span><span className="header-cta__arrow" aria-hidden="true"><ArrowRight size={17} /></span></Link></div>
       <div className="mobile-menu__controls"><LangSwitch onLocaleChange={closeForNavigation} /><ThemeToggle /></div>
     </div>
   </div>, document.body);

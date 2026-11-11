@@ -109,7 +109,7 @@ export function HeaderBehavior() {
               <ThemeToggle />
             </div>
             <div className="site-header__mobile-actions">
-              <Link className="header-cta header-cta--compact" href={navCta.href}><span>{t('discoverFreeShort')}</span><span className="header-cta__arrow" aria-hidden="true"><ArrowRight size={15} /></span></Link>
+              <Link className="header-cta header-cta--compact" href={navCta.mobileHref}><span>{t('discoverFreeShort')}</span><span className="header-cta__arrow" aria-hidden="true"><ArrowRight size={15} /></span></Link>
               <button ref={menuTriggerRef} type="button" className="header-menu-button" aria-label={t('menuOpen')} aria-expanded={mobileOpen} aria-controls="mobile-menu" onClick={() => setMobileOpen(true)}><Menu aria-hidden="true" /></button>
             </div>
           </m.div>}
