@@ -3,6 +3,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests/e2e',
   fullyParallel: false,
+  timeout: 90_000,
   reporter: 'list',
   use: { baseURL: 'http://127.0.0.1:3100', trace: 'retain-on-failure' },
   projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
@@ -12,6 +13,6 @@ export default defineConfig({
     command: 'node scripts/e2e-web-server.mjs --port 3100',
     url: 'http://127.0.0.1:3100/fr',
     reuseExistingServer: !process.env.CI,
-    timeout: 120_000,
+    timeout: 300_000,
   },
 });

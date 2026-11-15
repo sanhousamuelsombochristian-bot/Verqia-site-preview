@@ -17,4 +17,9 @@ describe('config/nav — responsive navigation', () => {
       mobileHref: '/produit/demonstration?source=header-mobile',
     });
   });
+  it('does not expose removed authentication destinations', () => {
+    const hrefs = [...mainNav, ...mobileNav].map((item) => item.href);
+    expect(hrefs.some((href) => /\/(connexion|inscription|mot-de-passe-oublie|reinitialiser-mot-de-passe)/.test(href))).toBe(false);
+    expect(navCta.href).not.toMatch(/connexion|inscription/);
+  });
 });

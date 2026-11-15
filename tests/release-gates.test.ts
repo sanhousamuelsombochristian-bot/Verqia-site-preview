@@ -1,4 +1,5 @@
 import { spawnSync } from 'node:child_process';
+import { existsSync, readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 
 const runGate = (overrides: Record<string, string | undefined>) => spawnSync(
@@ -37,5 +38,27 @@ describe('production release gate', () => {
     expect(result.status).toBe(1);
     expect(output(result)).toContain('Build Production détecté');
     expect(output(result)).toContain('Valeurs manquantes');
+  });
+});
+
+describe('removed authentication scope', () => {
+  it('no longer exposes authentication routes or components', () => {
+    for (const route of ['connexion', 'inscription', 'mot-de-passe-oublie', 'reinitialiser-mot-de-passe']) {
+      expect(existsSync(`app/[locale]/${route}`)).toBe(false);
+    }
+    expect(existsSync('components/auth')).toBe(false);
+    expect(existsSync('lib/supabase-browser.ts')).toBe(false);
+    expect(existsSync('styles/auth.css')).toBe(false);
+  });
+
+  it('removes Supabase from dependencies and environment examples', () => {
+    expect(readFileSync('package.json', 'utf8')).not.toMatch(/supabase/i);
+    expect(readFileSync('.env.example', 'utf8')).not.toMatch(/SUPABASE/i);
+  });
+
+  it('keeps public contact and offers default-deny', () => {
+    const scope = readFileSync('lib/launch-scope.ts', 'utf8');
+    expect(scope).toMatch(/publicContactEnabled\s*=\s*false/);
+    expect(scope).toMatch(/publicCommercialOfferEnabled\s*=\s*process\.env\.NEXT_PUBLIC_LOCAL_PRICING_REVIEW === 'true'/);
   });
 });

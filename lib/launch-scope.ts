@@ -4,7 +4,6 @@
 // disabled by default: the narrowly-scoped local review below is enabled only
 // when deliberately baked into a local artifact after founder approval.
 export const informationalPublicLaunch = true;
-export const publicAuthenticationEnabled = false;
 export const publicContactEnabled = false;
 
 // This is a public build flag, not a secret. It is intentionally false unless

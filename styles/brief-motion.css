@@ -91,3 +91,14 @@
   .pricing-card:hover, .product-link-card:hover { transform: none; }
 }
 html[data-page-hidden='true'] .home-hero__ambient, html[data-page-hidden='true'] .route-skeleton::after, html[data-page-hidden='true'] .deferred-demo-skeleton::after { animation-play-state: paused !important; }
+
+/* Reusable editorial accents: rotating hero benefit, strikethrough and marker. */
+.hero-rotate { display: flex; flex-wrap: wrap; align-items: baseline; gap: 7px; margin: 15px 0 0; color: var(--muted); font-size: .82rem; line-height: 1.45; }
+.hero-rotate__prefix { color: inherit; }
+.hero-rotate__viewport { position: relative; min-width: 96px; display: inline-flex; overflow: hidden; }
+.hero-rotate__word { color: var(--accent-text); font: italic 1.12rem/1 var(--font-instrument), serif; white-space: nowrap; }
+.struck { position: relative; display: inline-block; }
+.struck::after { position: absolute; top: 52%; right: -2%; left: -2%; height: 2px; border-radius: 999px; background: currentColor; content: ''; transform: rotate(-1.6deg); pointer-events: none; }
+em.marker, .marker { font-style: normal; background: linear-gradient(transparent 64%, rgb(151 242 1 / .34) 64%); }
+@media (max-width: 600px) { .hero-rotate { margin-top: 13px; }.hero-rotate__viewport { min-width: 84px; } }
+@media (prefers-reduced-motion: reduce) { .hero-rotate__word { transition: none !important; } }

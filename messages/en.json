@@ -104,8 +104,6 @@
       "pilot": "Learn about the pilot program.",
       "guides": "Guides and resources to explore VERQIA."
     },
-    "login": "Sign in",
-    "signup": "Create account",
     "offersUnavailableTitle": "No commercial plan is published.",
     "offersUnavailableDescription": "Plan, pricing and quota assumptions remain internal and must be validated before any offer."
   },
@@ -329,7 +327,13 @@
     "placeholder": "",
     "heroRotate": {
       "prefix": "Envisioned scope:",
-      "screenReaderSummary": "The envisioned scope includes four functions: centralize, prioritize, follow up and track."
+      "screenReaderSummary": "The envisioned scope includes four functions: centralize, prioritize, follow up and track.",
+      "words": {
+        "centralize": "Centralize",
+        "prioritize": "Prioritize",
+        "followUp": "Follow up",
+        "track": "Track"
+      }
     }
   },
   "productHub": {
@@ -372,7 +376,8 @@
     "eyebrow": "MODULES",
     "title": "VERQIA PILOT modules",
     "subtitle": "These modules describe the envisioned product scope and its reference plan allocation. They are not available as an operational service at this stage.",
-    "availableFrom": "Envisioned allocation in {plan}"
+    "availableFrom": "Envisioned allocation in {plan}",
+    "toValidate": "To validate"
   },
   "decisionEngine": {
     "metadataTitle": "VERQIA — Decision engine",
@@ -448,7 +453,38 @@
       "description": "Explore the features included in the Starter plan.",
       "cta": "Discover Starter",
       "close": "Close dialog"
-    }
+    },
+    "guidedRelance": {
+      "eyebrow": "GUIDED FOLLOW-UP — DEMONSTRATION",
+      "title": "Four fictional messages, no real sending",
+      "description": "This sequence illustrates follow-up tracking with fictional data. No message is actually sent and no contact is made.",
+      "fictional": "Fictional data",
+      "liveLabel": "Guided follow-up sequence",
+      "replay": "Replay the demonstration",
+      "bubbles": [
+        {
+          "label": "Step 1",
+          "title": "Reminder prepared",
+          "body": "Fictional invoice F-1042 — 8 days overdue."
+        },
+        {
+          "label": "Step 2",
+          "title": "Simulated reply",
+          "body": "The fictional client states a payment planned for Friday."
+        },
+        {
+          "label": "Step 3",
+          "title": "Promise recorded",
+          "body": "Fictional payment promise logged in the follow-up."
+        },
+        {
+          "label": "Step 4",
+          "title": "Next action",
+          "body": "A check is planned; no automatic sending occurs."
+        }
+      ]
+    },
+    "lockedHint": "Select a feature to view the related plan."
   },
   "pricingPage": {
     "eyebrow": "PRICING",
@@ -669,7 +705,8 @@
       }
     },
     "stepperLabel": "Steps in the envisioned journey",
-    "stepPanelLabel": "Step {step} of {count}"
+    "stepPanelLabel": "Step {step} of {count}",
+    "tabsLabel": "Envisioned pilot programme steps"
   },
   "aboutPage": {
     "eyebrow": "ABOUT",
@@ -679,16 +716,10 @@
     "founder": {
       "eyebrow": "A FOUNDING CONVICTION",
       "title": "A word from the founder",
-      "photoAlt": "Portrait of {name}",
-      "photoPending": "Portrait to be supplied",
-      "photoCaption": "Photograph supplied for the institutional presentation.",
-      "role": "Founder of VERQIA",
-      "paragraphOne": "VERQIA was born from a conviction: businesses should be able to better master the journey between an invoice and its collection.",
-      "paragraphTwo": "We set out to design a solution that does more than track invoices: it helps businesses organize their actions, better understand their receivables and improve their visibility over expected collections.",
-      "paragraphThree": "Our ambition is to make collections management more accessible, more structured and more relevant for small and medium-sized businesses.",
-      "paragraphFour": "VERQIA is an adventure built around a vision: give businesses the means to manage their cash flow with more method and intelligence.",
-      "quote": "We do not want to create software that businesses find interesting. We want to create a tool whose financial value they can see and that they choose to pay for every month.",
-      "signaturePending": "Founder name and title to be completed before publication."
+      "paragraphOne": "I imagined VERQIA from a simple conviction: a company should not have to endure a lack of visibility over its receivables, its due dates and its collections. Too often, financial information is scattered across several files and tools. It then becomes difficult to understand situations quickly, to know which actions to prioritize and to anticipate difficulties.",
+      "paragraphTwo": "With VERQIA, my ambition is to offer a platform that brings this information together and helps companies structure their financial steering. I want to build a reliable, accessible and intelligent solution that supports companies as they grow, whatever their size or activity.",
+      "paragraphThree": "VERQIA is a long-term project: a platform designed to give companies greater visibility, control and confidence in their decisions.",
+      "signature": "The Founder of VERQIA"
     },
     "purpose": {
       "eyebrow": "OUR DIRECTION",
@@ -719,74 +750,6 @@
           "description": "Give teams a better hold on the follow-up of their receivables."
         }
       }
-    },
-    "partners": {
-      "eyebrow": "ECOSYSTEM",
-      "title": "An ecosystem focused on smarter management.",
-      "description": "Future collaborations will appear here once they have been validated and the required approvals are in place.",
-      "carouselLabel": "Demo graphic identities strip",
-      "demoNotice": "Fictional demo graphic identities: they do not represent VERQIA partners or customers.",
-      "marks": {
-        "01": "HORIZON 01",
-        "02": "AXIS 02",
-        "03": "LANDMARK 03",
-        "04": "ORIGIN 04",
-        "05": "GRID 05",
-        "06": "LINE 06"
-      }
-    },
-    "team": {
-      "eyebrow": "THE TEAM",
-      "title": "The people behind the vision.",
-      "description": "A multidisciplinary team is envisioned to build, test and evolve a useful management experience.",
-      "demoNotice": "Profiles, names, roles and portraits are generated for demonstration. They do not represent real staff members and must be replaced before publication.",
-      "carouselLabel": "VERQIA team demo profiles",
-      "previous": "Show previous profiles",
-      "next": "Show next profiles",
-      "cardLabel": "Demo profile {index} of {count}",
-      "members": {
-        "leadership": {
-          "name": "Aïda Kori",
-          "role": "General management",
-          "bio": "Demo profile illustrating leadership committed to VERQIA’s vision and direction.",
-          "imageAlt": "Demo portrait of Aïda Kori"
-        },
-        "product": {
-          "name": "Nolan Évia",
-          "role": "Product and innovation",
-          "bio": "Demo profile representing the translation of field needs into product journeys.",
-          "imageAlt": "Demo portrait of Nolan Évia"
-        },
-        "engineering": {
-          "name": "Maëlle Soroa",
-          "role": "Software engineering",
-          "bio": "Demo profile illustrating the design of robust, accessible digital experiences.",
-          "imageAlt": "Demo portrait of Maëlle Soroa"
-        },
-        "finance": {
-          "name": "Djamal N’Zi",
-          "role": "Finance and strategy",
-          "bio": "Demo profile representing attention to management and steering needs.",
-          "imageAlt": "Demo portrait of Djamal N’Zi"
-        },
-        "experience": {
-          "name": "Lina Kora",
-          "role": "User experience",
-          "bio": "Demo profile embodying the search for clarity in every interaction.",
-          "imageAlt": "Demo portrait of Lina Kora"
-        },
-        "customer": {
-          "name": "Éli Nawa",
-          "role": "Customer relations",
-          "bio": "Demo profile illustrating listening and support for future users.",
-          "imageAlt": "Demo portrait of Éli Nawa"
-        }
-      }
-    },
-    "testimonials": {
-      "eyebrow": "TESTIMONIALS",
-      "title": "Feedback to publish rigorously.",
-      "pending": "No customer testimonial or commercial outcome is shown until the content, approvals and publishing context have been validated."
     },
     "geographyTitle": "Geographic coverage",
     "city": "City",
@@ -1121,7 +1084,8 @@
           "context": "Simulated scenario"
         }
       }
-    }
+    },
+    "cta": "View the conceptual mock-up"
   },
   "announcement": {
     "label": "VERQIA announcement",
@@ -1157,79 +1121,6 @@
     "errorTitle": "Something went wrong",
     "errorBody": "Please try again. If the problem persists, come back shortly.",
     "retry": "Try again"
-  },
-  "auth": {
-    "loginTitle": "Welcome back.",
-    "loginDescription": "Sign in to your VERQIA PILOT space.",
-    "signupTitle": "Create your space.",
-    "signupDescription": "Start by creating your VERQIA PILOT account.",
-    "forgotTitle": "Reset your access.",
-    "forgotDescription": "Enter the email address associated with your account to receive a reset link.",
-    "newPasswordTitle": "Choose a new password.",
-    "newPasswordDescription": "Your new password must be at least 12 characters long.",
-    "signedInTitle": "You’re signed in.",
-    "signedInAs": "Session open for {email}.",
-    "signedIn": "Sign-in successful.",
-    "signOut": "Sign out",
-    "serviceNotConfigured": "Authentication is not enabled on this preview yet. No account will be created and no session will be started.",
-    "working": "Connecting…",
-    "continueGoogle": "Continue with Google",
-    "continueMicrosoft": "Continue with Microsoft",
-    "orEmail": "or continue with email",
-    "email": "Email address",
-    "password": "Password",
-    "rememberMe": "Keep me signed in on this device",
-    "forgotPassword": "Forgot password?",
-    "showPassword": "Show password",
-    "hidePassword": "Hide password",
-    "loginButton": "Sign in",
-    "noAccount": "Don’t have an account yet?",
-    "createAccount": "Create an account",
-    "firstName": "First name",
-    "lastName": "Last name",
-    "company": "Company",
-    "confirmPassword": "Confirm password",
-    "acceptTerms": "I agree to the",
-    "termsLink": "terms of use",
-    "and": "and the",
-    "privacyLink": "privacy policy",
-    "signupButton": "Create account",
-    "haveAccount": "Already have an account?",
-    "loginLink": "Sign in",
-    "sendReset": "Send reset link",
-    "backToLogin": "Back to sign in",
-    "resetSent": "If an account matches this address, a reset link will be sent.",
-    "resetFailed": "The request could not be completed. Check the configuration and try again.",
-    "passwordUpdated": "Your password has been updated.",
-    "newPassword": "New password",
-    "updatePassword": "Update password",
-    "loginFailed": "Unable to sign in. Check your credentials and try again.",
-    "signupFailed": "Account creation failed. Check the information and try again.",
-    "accountCreated": "Your account has been created.",
-    "confirmEmail": "Check your inbox to confirm your email address.",
-    "validation": {
-      "email": "Enter a valid email address.",
-      "password": "Enter your password.",
-      "passwordRequired": "Enter your password.",
-      "firstName": "Enter your first name.",
-      "lastName": "Enter your last name.",
-      "company": "Enter your company name.",
-      "passwordLength": "Password must be at least 12 characters long.",
-      "passwordMismatch": "Passwords do not match.",
-      "terms": "Accept the terms to continue.",
-      "invalidForm": "Check the form fields."
-    },
-    "providerFailed": "The identity provider rejected the request. Check its Supabase configuration.",
-    "brandStoryLabel": "About VERQIA PILOT",
-    "backHome": "Back to home",
-    "eyebrow": "VERQIA PILOT PRESENTATION",
-    "storyTitle": "A presentation under validation.",
-    "storyDescription": "VERQIA PILOT presents an envisioned scope, without an operational user workspace.",
-    "storyNote": "No account or authenticated access is available in this version.",
-    "formLabel": "Availability information",
-    "unavailableTitle": "User access is not available",
-    "unavailableDescription": "This version is an informational, conceptual presentation. No account or sign-in method is offered.",
-    "unavailableLabel": "Access availability"
   },
   "productWorkflow": {
     "eyebrow": "ENVISIONED PRODUCT JOURNEY",

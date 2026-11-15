@@ -10,20 +10,22 @@ if (!port || !/^\d+$/.test(port)) {
   process.exit(1);
 }
 
-const npm = process.platform === 'win32' ? 'npm.cmd' : 'npm';
+const isWindows = process.platform === 'win32';
+const npm = isWindows ? 'npm.cmd' : 'npm';
 const env = {
   ...process.env,
   NEXT_PUBLIC_SCROLL_PRESET: 'balanced',
   ...(pricingReview ? { NEXT_PUBLIC_LOCAL_PRICING_REVIEW: 'true' } : { NEXT_PUBLIC_LOCAL_PRICING_REVIEW: '' }),
 };
 
-const build = spawnSync(npm, ['run', 'build'], { cwd: process.cwd(), env, stdio: 'inherit' });
+// Windows requires a shell to spawn .cmd shims (Node >= 20.12 blocks direct .cmd spawn).
+const build = spawnSync(npm, ['run', 'build'], { cwd: process.cwd(), env, stdio: 'inherit', shell: isWindows });
 if (build.error || build.status !== 0) {
   console.error(build.error ? `Build E2E impossible : ${build.error.message}` : 'Build E2E en échec.');
   process.exit(build.status ?? 1);
 }
 
-const server = spawn(npm, ['run', 'start', '--', '--port', port], { cwd: process.cwd(), env, stdio: 'inherit' });
+const server = spawn(npm, ['run', 'start', '--', '--port', port], { cwd: process.cwd(), env, stdio: 'inherit', shell: isWindows });
 const stop = (signal) => {
   if (!server.killed) server.kill(signal);
 };

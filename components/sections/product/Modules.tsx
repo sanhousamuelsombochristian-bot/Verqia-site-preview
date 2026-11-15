@@ -3,6 +3,7 @@ import { Activity, CircleDollarSign, CreditCard, FileText, LayoutDashboard, Repe
 import { useTranslations } from 'next-intl';
 import { modules } from '@/config/modules';
 import { SectionLabel } from '@/components/ui/SectionLabel';
+import { Badge } from '@/components/ui/Badge';
 import { publicCommercialOfferEnabled } from '@/lib/launch-scope';
 
 const moduleIcons: Record<string, LucideIcon> = {
@@ -32,6 +33,7 @@ export function Modules() {
             <div className="module-card__top"><span className="module-card__number">{String(index + 1).padStart(2, '0')}</span><span className="module-card__icon" aria-hidden="true"><Icon size={20} strokeWidth={1.6} /></span></div>
             <h2>{t(item.titleKey)}</h2>
             <p className="module-card__description">{t(item.descriptionKey)}</p>
+            {item.status === 'toValidate' && <p className="module-card__status"><Badge tone="validate">{page('toValidate')}</Badge></p>}
             {publicCommercialOfferEnabled && <div className="module-card__availability"><span>{page('availableFrom', { plan: item.availableFrom.toUpperCase() })}</span></div>}
             {item.accessNoteKey && <p className="module-card__access-note">{t(item.accessNoteKey)}</p>}
           </article>;

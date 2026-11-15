@@ -4,6 +4,7 @@ import { LockKeyhole, X } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { getLenis } from '@/lib/smooth-scroll';
+import { withSource } from '@/lib/cta';
 
 export function UpgradeModal({ open, onClose }: { open: boolean; onClose: () => void }) {
   const t = useTranslations('demoPage.modal');
@@ -12,6 +13,7 @@ export function UpgradeModal({ open, onClose }: { open: boolean; onClose: () => 
 
   useEffect(() => {
     if (!open) return;
+    const previouslyFocused = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
     getLenis()?.stop();
@@ -31,6 +33,7 @@ export function UpgradeModal({ open, onClose }: { open: boolean; onClose: () => 
       document.removeEventListener('keydown', onKeyDown);
       document.body.style.overflow = previousOverflow;
       getLenis()?.start();
+      previouslyFocused?.focus();
     };
   }, [open, onClose]);
 
@@ -42,7 +45,7 @@ export function UpgradeModal({ open, onClose }: { open: boolean; onClose: () => 
       <p className="upgrade-modal__eyebrow">{t('eyebrow')}</p>
       <h2 id="upgrade-modal-title">{t('title')}</h2>
       <p id="upgrade-modal-description">{t('description')}</p>
-      <Link className="upgrade-modal__cta" href="/tarifs" onClick={onClose}>{t('cta')}<span aria-hidden="true">→</span></Link>
+      <Link className="upgrade-modal__cta" href={withSource('/tarifs', 'demo-locked')} onClick={onClose}>{t('cta')}<span aria-hidden="true">→</span></Link>
     </div>
   </div>;
 }

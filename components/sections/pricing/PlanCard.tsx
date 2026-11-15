@@ -23,7 +23,7 @@ export function PlanCard({ planKey, billing, locale }: { planKey: PlanKey; billi
     <p className="pricing-card__description">{t('plans.enterprise.description')}</p><div className="pricing-card__price"><strong>{t('quote')}</strong></div>
     <dl className="pricing-card__quotas"><div><dt>{t('users')}</dt><dd>{t('custom')}</dd></div><div><dt>{t('invoices')}</dt><dd>{t('custom')}</dd></div><div><dt>{t('clients')}</dt><dd>{t('custom')}</dd></div></dl>
     <ul className="pricing-card__features">{featureKeys.map((key) => <li key={key}>{t(`plans.enterprise.features.${key}`)}</li>)}</ul>
-    {canContact && <Button href="/contact" className="pricing-card__cta" variant="secondary">{t('plans.enterprise.cta')}</Button>}
+    {canContact && <Button href="/contact" className="pricing-card__cta" variant="secondary" source="pricing">{t('plans.enterprise.cta')}</Button>}
   </article>;
 
   const data = plans[planKey];
@@ -44,6 +44,6 @@ export function PlanCard({ planKey, billing, locale }: { planKey: PlanKey; billi
     </dl>
     <ul className="pricing-card__features">{featureKeys.map((key) => <li key={key}>{t(`plans.${planKey}.features.${key}`)}</li>)}</ul>
     <p className="pricing-card__locked"><LockKeyhole size={15} aria-hidden="true" /><span>{t(`plans.${planKey}.locked`)}</span><b>{t(`plans.${planKey}.upgrade`)}</b></p>
-    {(planKey === 'free' || canContact) && <Button href={planKey === 'free' ? '/produit/demonstration' : '/contact'} className="pricing-card__cta" variant={planKey === 'business' ? 'primary' : 'secondary'}>{t(`plans.${planKey}.cta`)}</Button>}
+    {(planKey === 'free' || canContact) && <Button href={planKey === 'free' ? '/produit/demonstration' : '/contact'} className="pricing-card__cta" variant={planKey === 'business' ? 'primary' : 'secondary'} source="pricing">{t(`plans.${planKey}.cta`)}</Button>}
   </article>;
 }

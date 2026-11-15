@@ -8,6 +8,7 @@ import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import { mobileNav, navCta } from '@/config/nav';
 import { getLenis } from '@/lib/smooth-scroll';
+import { withSource } from '@/lib/cta';
 import { LangSwitch } from './LangSwitch';
 import { ThemeToggle } from './ThemeToggle';
 import { Brand } from './Brand';
@@ -88,7 +89,7 @@ export function MobileSheet({ open, onClose, triggerRef }: { open: boolean; onCl
           </div>
         </section> : <Link className="mobile-menu__direct" key={item.key} href={item.href} aria-current={pathname === item.href ? 'location' : undefined} onClick={closeForNavigation}>{t(item.key)}</Link>)}
       </nav>
-      <div className="mobile-menu__cta"><Link className="header-cta" href={navCta.mobileHref} onClick={closeForNavigation}><span>{t(navCta.key)}</span><span className="header-cta__arrow" aria-hidden="true"><ArrowRight size={17} /></span></Link></div>
+      <div className="mobile-menu__cta"><Link className="header-cta" href={withSource(navCta.mobileHref, 'header-mobile')} onClick={closeForNavigation}><span>{t(navCta.key)}</span><span className="header-cta__arrow" aria-hidden="true"><ArrowRight size={17} /></span></Link></div>
       <div className="mobile-menu__controls"><LangSwitch onLocaleChange={closeForNavigation} /><ThemeToggle /></div>
     </div>
   </div>, document.body);

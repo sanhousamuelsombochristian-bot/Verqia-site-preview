@@ -104,8 +104,6 @@
       "pilot": "Découvrez les modalités du programme pilote.",
       "guides": "Guides et ressources pour découvrir VERQIA."
     },
-    "login": "Connexion",
-    "signup": "Créer un compte",
     "offersUnavailableTitle": "Aucune formule commerciale n’est publiée.",
     "offersUnavailableDescription": "Les hypothèses de formules, tarifs et quotas restent internes et doivent être validées avant toute offre."
   },
@@ -329,7 +327,13 @@
     "placeholder": "",
     "heroRotate": {
       "prefix": "Le périmètre envisagé :",
-      "screenReaderSummary": "Le périmètre envisagé comprend quatre fonctions : centraliser, prioriser, relancer et tracer."
+      "screenReaderSummary": "Le périmètre envisagé comprend quatre fonctions : centraliser, prioriser, relancer et tracer.",
+      "words": {
+        "centralize": "Centraliser",
+        "prioritize": "Prioriser",
+        "followUp": "Relancer",
+        "track": "Tracer"
+      }
     }
   },
   "productHub": {
@@ -372,7 +376,8 @@
     "eyebrow": "MODULES",
     "title": "Les modules de VERQIA PILOT",
     "subtitle": "Ces modules décrivent le périmètre produit envisagé et sa répartition tarifaire de référence. Les fonctions ne sont pas disponibles comme service opérationnel à ce stade.",
-    "availableFrom": "Répartition envisagée dans {plan}"
+    "availableFrom": "Répartition envisagée dans {plan}",
+    "toValidate": "À valider"
   },
   "decisionEngine": {
     "metadataTitle": "VERQIA — Moteur décisionnel",
@@ -448,7 +453,38 @@
       "description": "Découvrez les fonctionnalités de la formule Starter.",
       "cta": "Découvrir Starter",
       "close": "Fermer la fenêtre"
-    }
+    },
+    "guidedRelance": {
+      "eyebrow": "RELANCE GUIDÉE — DÉMONSTRATION",
+      "title": "Quatre messages fictifs, aucun envoi réel",
+      "description": "Cette séquence illustre le suivi d’une relance avec des données fictives. Aucun message n’est réellement envoyé et aucun contact n’est effectué.",
+      "fictional": "Données fictives",
+      "liveLabel": "Séquence de relance guidée",
+      "replay": "Rejouer la démonstration",
+      "bubbles": [
+        {
+          "label": "Étape 1",
+          "title": "Rappel préparé",
+          "body": "Facture fictive F-1042 — échéance dépassée de 8 jours."
+        },
+        {
+          "label": "Étape 2",
+          "title": "Réponse simulée",
+          "body": "Le client fictif indique un paiement prévu vendredi."
+        },
+        {
+          "label": "Étape 3",
+          "title": "Promesse enregistrée",
+          "body": "Promesse de paiement fictive consignée dans le suivi."
+        },
+        {
+          "label": "Étape 4",
+          "title": "Action suivante",
+          "body": "Une vérification est planifiée ; aucun envoi automatique."
+        }
+      ]
+    },
+    "lockedHint": "Sélectionner une fonctionnalité pour voir la formule associée."
   },
   "pricingPage": {
     "eyebrow": "TARIFS",
@@ -669,7 +705,8 @@
       }
     },
     "stepperLabel": "Étapes du parcours envisagé",
-    "stepPanelLabel": "Étape {step} sur {count}"
+    "stepPanelLabel": "Étape {step} sur {count}",
+    "tabsLabel": "Étapes du programme pilote envisagé"
   },
   "aboutPage": {
     "eyebrow": "À PROPOS",
@@ -679,16 +716,10 @@
     "founder": {
       "eyebrow": "UNE CONVICTION FONDATRICE",
       "title": "Le mot du fondateur",
-      "photoAlt": "Portrait de {name}",
-      "photoPending": "Portrait à fournir",
-      "photoCaption": "Photographie fournie pour la présentation institutionnelle.",
-      "role": "Fondateur de VERQIA",
-      "paragraphOne": "VERQIA est née d’une conviction : les entreprises doivent pouvoir mieux maîtriser le parcours qui sépare une facture de son encaissement.",
-      "paragraphTwo": "Nous avons voulu concevoir une solution qui ne se contente pas de suivre des factures, mais qui aide les entreprises à organiser leurs actions, mieux comprendre leurs créances et améliorer leur visibilité sur les encaissements attendus.",
-      "paragraphThree": "Notre ambition est de rendre le pilotage du recouvrement plus accessible, plus structuré et plus pertinent pour les PME.",
-      "paragraphFour": "VERQIA est une aventure construite autour d’une vision : donner aux entreprises les moyens de mieux piloter leur trésorerie, avec méthode et intelligence.",
-      "quote": "Nous ne voulons pas créer un logiciel que les entreprises trouvent intéressant. Nous voulons créer un outil dont elles constatent la valeur financière et qu’elles choisissent de payer chaque mois.",
-      "signaturePending": "Nom et fonction du fondateur à compléter avant publication."
+      "paragraphOne": "J'ai imaginé VERQIA à partir d'une conviction simple : une entreprise ne devrait pas avoir à subir le manque de visibilité sur ses créances, ses échéances et ses encaissements. Trop souvent, les informations financières sont dispersées entre plusieurs fichiers et outils. Il devient alors difficile de comprendre rapidement les situations, de savoir quelles actions prioriser et d'anticiper les difficultés.",
+      "paragraphTwo": "Avec VERQIA, mon ambition est de proposer une plateforme qui rassemble ces informations et aide les entreprises à structurer leur pilotage financier. Je souhaite construire une solution fiable, accessible et intelligente, qui accompagne les entreprises dans leur évolution, quelle que soit leur taille ou leur activité.",
+      "paragraphThree": "VERQIA est un projet de long terme : une plateforme pensée pour donner aux entreprises davantage de visibilité, de maîtrise et de confiance dans leurs décisions.",
+      "signature": "Le Fondateur de VERQIA"
     },
     "purpose": {
       "eyebrow": "NOTRE CAP",
@@ -719,74 +750,6 @@
           "description": "Donner aux équipes une meilleure prise sur le suivi de leurs créances."
         }
       }
-    },
-    "partners": {
-      "eyebrow": "ÉCOSYSTÈME",
-      "title": "Un écosystème tourné vers une gestion plus intelligente.",
-      "description": "Les collaborations à venir seront présentées ici après leur validation et les autorisations nécessaires.",
-      "carouselLabel": "Bandeau d’identités graphiques de démonstration",
-      "demoNotice": "Identités graphiques fictives de démonstration : elles ne représentent pas des partenaires ou des clients de VERQIA.",
-      "marks": {
-        "01": "HORIZON 01",
-        "02": "AXE 02",
-        "03": "REPÈRE 03",
-        "04": "ORIGINE 04",
-        "05": "TRAME 05",
-        "06": "LIGNE 06"
-      }
-    },
-    "team": {
-      "eyebrow": "L’ÉQUIPE",
-      "title": "Les personnes derrière la vision.",
-      "description": "Une équipe pluridisciplinaire est imaginée pour construire, tester et faire évoluer une expérience de pilotage utile.",
-      "demoNotice": "Profils, noms, fonctions et portraits générés pour la démonstration. Ils ne représentent pas des collaborateurs réels et doivent être remplacés avant publication.",
-      "carouselLabel": "Profils de démonstration de l’équipe VERQIA",
-      "previous": "Voir les profils précédents",
-      "next": "Voir les profils suivants",
-      "cardLabel": "Profil de démonstration {index} sur {count}",
-      "members": {
-        "leadership": {
-          "name": "Aïda Kori",
-          "role": "Direction générale",
-          "bio": "Profil de démonstration pour illustrer une direction engagée dans la vision et le cap de VERQIA.",
-          "imageAlt": "Portrait de démonstration d’Aïda Kori"
-        },
-        "product": {
-          "name": "Nolan Évia",
-          "role": "Produit et innovation",
-          "bio": "Profil de démonstration pour représenter la traduction des besoins terrain en parcours produit.",
-          "imageAlt": "Portrait de démonstration de Nolan Évia"
-        },
-        "engineering": {
-          "name": "Maëlle Soroa",
-          "role": "Développement logiciel",
-          "bio": "Profil de démonstration pour illustrer la conception d’expériences numériques robustes et accessibles.",
-          "imageAlt": "Portrait de démonstration de Maëlle Soroa"
-        },
-        "finance": {
-          "name": "Djamal N’Zi",
-          "role": "Finance et stratégie",
-          "bio": "Profil de démonstration pour représenter l’attention portée aux enjeux de gestion et de pilotage.",
-          "imageAlt": "Portrait de démonstration de Djamal N’Zi"
-        },
-        "experience": {
-          "name": "Lina Kora",
-          "role": "Expérience utilisateur",
-          "bio": "Profil de démonstration pour incarner la recherche de clarté dans chaque interaction.",
-          "imageAlt": "Portrait de démonstration de Lina Kora"
-        },
-        "customer": {
-          "name": "Éli Nawa",
-          "role": "Relation client",
-          "bio": "Profil de démonstration pour illustrer l’écoute et l’accompagnement des futurs utilisateurs.",
-          "imageAlt": "Portrait de démonstration d’Éli Nawa"
-        }
-      }
-    },
-    "testimonials": {
-      "eyebrow": "TÉMOIGNAGES",
-      "title": "Des retours à publier avec rigueur.",
-      "pending": "Aucun témoignage client ou résultat commercial n’est affiché tant que les contenus, les autorisations et leur contexte de publication ne sont pas validés."
     },
     "geographyTitle": "Couverture géographique",
     "city": "Ville",
@@ -1121,7 +1084,8 @@
           "context": "Scénario simulé"
         }
       }
-    }
+    },
+    "cta": "Explorer la maquette conceptuelle"
   },
   "announcement": {
     "label": "Annonce VERQIA",
@@ -1157,79 +1121,6 @@
     "errorTitle": "Une erreur est survenue",
     "errorBody": "Réessaie. Si le problème persiste, reviens un peu plus tard.",
     "retry": "Réessayer"
-  },
-  "auth": {
-    "loginTitle": "Heureux de vous retrouver.",
-    "loginDescription": "Connectez-vous à votre espace VERQIA PILOT.",
-    "signupTitle": "Créez votre espace.",
-    "signupDescription": "Commencez par créer votre compte VERQIA PILOT.",
-    "forgotTitle": "Réinitialiser votre accès.",
-    "forgotDescription": "Saisissez l’adresse associée à votre compte pour recevoir un lien de réinitialisation.",
-    "newPasswordTitle": "Choisissez un nouveau mot de passe.",
-    "newPasswordDescription": "Votre nouveau mot de passe doit contenir au moins 12 caractères.",
-    "signedInTitle": "Vous êtes connecté.",
-    "signedInAs": "Session ouverte pour {email}.",
-    "signedIn": "Connexion réussie.",
-    "signOut": "Se déconnecter",
-    "serviceNotConfigured": "L’authentification n’est pas encore activée sur cette préversion. Aucun compte ne sera créé ni connecté.",
-    "working": "Connexion en cours…",
-    "continueGoogle": "Continuer avec Google",
-    "continueMicrosoft": "Continuer avec Microsoft",
-    "orEmail": "ou avec votre e-mail",
-    "email": "Adresse e-mail",
-    "password": "Mot de passe",
-    "rememberMe": "Garder ma session ouverte sur cet appareil",
-    "forgotPassword": "Mot de passe oublié ?",
-    "showPassword": "Afficher le mot de passe",
-    "hidePassword": "Masquer le mot de passe",
-    "loginButton": "Se connecter",
-    "noAccount": "Vous n’avez pas encore de compte ?",
-    "createAccount": "Créer un compte",
-    "firstName": "Prénom",
-    "lastName": "Nom",
-    "company": "Entreprise",
-    "confirmPassword": "Confirmer le mot de passe",
-    "acceptTerms": "J’accepte les",
-    "termsLink": "conditions d’utilisation",
-    "and": "et la",
-    "privacyLink": "politique de confidentialité",
-    "signupButton": "Créer mon compte",
-    "haveAccount": "Vous avez déjà un compte ?",
-    "loginLink": "Se connecter",
-    "sendReset": "Envoyer le lien de réinitialisation",
-    "backToLogin": "Retour à la connexion",
-    "resetSent": "Si un compte correspond à cette adresse, un lien de réinitialisation va être envoyé.",
-    "resetFailed": "Impossible de traiter la demande. Vérifiez la configuration et réessayez.",
-    "passwordUpdated": "Votre mot de passe a été mis à jour.",
-    "newPassword": "Nouveau mot de passe",
-    "updatePassword": "Mettre à jour le mot de passe",
-    "loginFailed": "Connexion impossible. Vérifiez vos identifiants et réessayez.",
-    "signupFailed": "La création du compte a échoué. Vérifiez les informations et réessayez.",
-    "accountCreated": "Votre compte a été créé.",
-    "confirmEmail": "Vérifiez votre boîte de réception pour confirmer votre adresse e-mail.",
-    "validation": {
-      "email": "Saisissez une adresse e-mail valide.",
-      "password": "Saisissez votre mot de passe.",
-      "passwordRequired": "Saisissez votre mot de passe.",
-      "firstName": "Saisissez votre prénom.",
-      "lastName": "Saisissez votre nom.",
-      "company": "Saisissez le nom de votre entreprise.",
-      "passwordLength": "Le mot de passe doit contenir au moins 12 caractères.",
-      "passwordMismatch": "Les mots de passe ne correspondent pas.",
-      "terms": "Acceptez les conditions pour continuer.",
-      "invalidForm": "Vérifiez les champs du formulaire."
-    },
-    "providerFailed": "Le fournisseur de connexion a refusé la demande. Vérifiez sa configuration dans Supabase.",
-    "brandStoryLabel": "À propos de VERQIA PILOT",
-    "backHome": "Retour à l’accueil",
-    "eyebrow": "PRÉSENTATION VERQIA PILOT",
-    "storyTitle": "Une présentation en cours de validation.",
-    "storyDescription": "VERQIA PILOT présente un périmètre envisagé, sans espace utilisateur opérationnel.",
-    "storyNote": "Aucun compte ou accès authentifié n’est disponible dans cette version.",
-    "formLabel": "Information de disponibilité",
-    "unavailableTitle": "Accès utilisateur non disponible",
-    "unavailableDescription": "Cette version est une présentation informative et conceptuelle. Aucun compte ni mode de connexion n’est proposé.",
-    "unavailableLabel": "Disponibilité de l’accès"
   },
   "productWorkflow": {
     "eyebrow": "PARCOURS PRODUIT ENVISAGÉ",

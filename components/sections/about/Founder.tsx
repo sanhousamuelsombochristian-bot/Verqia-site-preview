@@ -11,8 +11,10 @@ const valueIcons: Record<AboutValueKey, typeof ScanSearch> = {
   mastery: Scale,
 };
 
-// The retained public overview intentionally excludes founder, partner, team
-// and testimonial sections until their publication authority is separately set.
+// The retained public overview intentionally excludes partner, team,
+// testimonial and personal identity content until publication authority is set.
+// The founder message is rendered as approved text only, without a name, portrait
+// or biography.
 export function Founder() {
   const t = useTranslations('aboutPage');
   const locationDetails = [
@@ -34,6 +36,17 @@ export function Founder() {
     <section className="about-values" aria-labelledby="values-title"><div className="home-section__inner"><Reveal><p className="section-label"><span />{t('values.eyebrow')}</p><h2 id="values-title">{t('values.title')}</h2></Reveal><div className="about-values__grid">
       {aboutValues.map(({ key }, index) => { const Icon = valueIcons[key]; return <Reveal key={key} delay={index * 0.06}><article className="about-value-card"><span className="about-value-card__number">{String(index + 1).padStart(2, '0')}</span><Icon size={25} strokeWidth={1.5} aria-hidden="true" /><h3>{t(`values.items.${key}.title`)}</h3><p>{t(`values.items.${key}.description`)}</p></article></Reveal>; })}
     </div></div></section>
+
+    <section className="about-founder" aria-labelledby="founder-title"><div className="home-section__inner"><Reveal className="founder-copy">
+      <p className="section-label"><span />{t('founder.eyebrow')}</p>
+      <h2 id="founder-title">{t('founder.title')}</h2>
+      <div className="founder-copy__message">
+        <p>{t('founder.paragraphOne')}</p>
+        <p>{t('founder.paragraphTwo')}</p>
+        <p>{t('founder.paragraphThree')}</p>
+      </div>
+      <p className="founder-signature">{t('founder.signature')}</p>
+    </Reveal></div></section>
 
     {locationDetails.length > 0 && <section className="about-geography" aria-labelledby="geography-title"><div className="home-section__inner"><h2 id="geography-title">{t('geographyTitle')}</h2><dl>{locationDetails.map(({ label, value }) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl></div></section>}
   </main>;

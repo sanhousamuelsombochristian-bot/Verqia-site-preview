@@ -1,18 +1,42 @@
+import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { aboutTeam, aboutValues, demoPartnerMarks } from '../config/about';
+import { aboutValues } from '../config/about';
 
-describe('config/about — editable institutional demo content', () => {
+type Messages = { aboutPage: Record<string, unknown> & { founder: Record<string, string> } };
+const readMessages = (locale: 'fr' | 'en') => JSON.parse(readFileSync(`messages/${locale}.json`, 'utf8')) as Messages;
+
+describe('config/about — editable institutional content', () => {
   it('keeps the four institutional values explicit', () => {
     expect(aboutValues.map(({ key }) => key)).toEqual(['clarity', 'reliability', 'innovation', 'mastery']);
   });
 
-  it('keeps six distinct, replaceable demo team portraits', () => {
-    expect(aboutTeam).toHaveLength(6);
-    expect(new Set(aboutTeam.map(({ key }) => key)).size).toBe(aboutTeam.length);
-    expect(aboutTeam.every(({ image }) => image.startsWith('/media/about/team-demo-') && image.endsWith('.webp'))).toBe(true);
+  it('renders the founder message as approved anonymous text only', () => {
+    for (const locale of ['fr', 'en'] as const) {
+      const founder = readMessages(locale).aboutPage.founder;
+      expect(founder.paragraphOne.length).toBeGreaterThan(40);
+      expect(founder.signature).toBe(locale === 'fr' ? 'Le Fondateur de VERQIA' : 'The Founder of VERQIA');
+      expect(founder).not.toHaveProperty('name');
+      expect(founder).not.toHaveProperty('photoAlt');
+      expect(founder).not.toHaveProperty('photoPending');
+      expect(founder).not.toHaveProperty('role');
+      expect(JSON.stringify(founder)).not.toMatch(/SANHOU|Sombo|Christian|Samuel/i);
+    }
   });
 
-  it('keeps partner identities demonstrative rather than business data', () => {
-    expect(demoPartnerMarks).toEqual(['01', '02', '03', '04', '05', '06']);
+  it('keeps partner, team and testimonial content out of the public page', () => {
+    for (const locale of ['fr', 'en'] as const) {
+      const aboutPage = readMessages(locale).aboutPage;
+      expect(aboutPage).not.toHaveProperty('partners');
+      expect(aboutPage).not.toHaveProperty('team');
+      expect(aboutPage).not.toHaveProperty('testimonials');
+    }
+    const component = readFileSync('components/sections/about/Founder.tsx', 'utf8');
+    expect(component).not.toMatch(/about-partners|about-team|about-testimonials|founder-photo|<img|<picture/);
+  });
+
+  it('removes default founder identity and portrait from site config', () => {
+    const siteConfig = readFileSync('config/site.ts', 'utf8');
+    expect(siteConfig).not.toMatch(/founderName|founderPhotoPath/);
+    expect(siteConfig).not.toMatch(/NEXT_PUBLIC_FOUNDER/);
   });
 });

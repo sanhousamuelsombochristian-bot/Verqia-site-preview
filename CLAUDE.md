@@ -1,7 +1,7 @@
 # CLAUDE.md — Directive de l'agent pour le site VERQIA
 
 > **Comment l'utiliser** : ce fichier est placé à la **racine du projet** sous le nom `CLAUDE.md` (Claude Code le lit automatiquement). Avec Cursor : l'enregistrer sous `AGENTS.md` ou `.cursorrules`. Avec ChatGPT : le coller en premier. Les fichiers `01` à `04` donnent le contenu ; ce fichier donne la **méthode**.
-> **Version** : 08/11/2026. Site vitrine de **7 pages**, **sans backend** dans cette phase.
+> **Version** : 11/11/2026. Package 11/11 appliqué. Site vitrine **sans backend, sans authentification et sans canal de contact public** dans cette phase.
 
 ---
 
@@ -9,7 +9,20 @@
 
 > **Cette directive prévaut sur toutes les références historiques de ce fichier.** Pour le contenu, utiliser exclusivement `messages/fr.json` et `messages/en.json` actuels : ils portent le cadrage « validation du besoin », « maquette conceptuelle », « périmètre envisagé » et « service non opérationnel ». **Ne jamais réutiliser, paraphraser ou appliquer l’ancien PRD du 08/11**, même lorsqu’il est cité plus bas.
 >
-> Les garde-fous de lancement en vigueur prévalent aussi : pas de production, pas de domaine/DNS, pas de publication d’identité ou portrait, pas de canal de contact, pas de backend, de formulaire, de base de données ou de collecte réelle. Les tarifs restent limités au build local/Preview autorisé par flag. En cas de contradiction, signaler le blocage et conserver le comportement le plus restrictif.
+> Les garde-fous de lancement en vigueur prévalent aussi : pas de production, pas de domaine/DNS, pas de publication d'identité ou portrait, pas de canal de contact, pas de backend, de formulaire, de base de données ou de collecte réelle. Les tarifs restent limités au build local/Preview autorisé par flag. En cas de contradiction, signaler le blocage et conserver le comportement le plus restrictif.
+
+## Directive active — package 11/11
+
+> **Cette section complète et précise la directive ci-dessus. En cas de contradiction, le package 11/11 prévaut.**
+>
+> 1. `messages/fr.json` et `messages/en.json` sont la source de contenu active. L'ancien PRD daté du 08/11 est **non autoritatif** et ne doit pas servir à réintroduire du contenu.
+> 2. L'authentification est retirée : aucune route `/connexion`, `/inscription`, `/mot-de-passe-oublie`, `/reinitialiser-mot-de-passe`, aucun composant `components/auth`, aucune dépendance Supabase, aucune clé i18n `auth`.
+> 3. Le mot du fondateur est un texte approuvé, anonyme et sans image. **Interdiction de réintroduire un nom, portrait, photo, biographie, parcours, diplôme, ville/pays ou emplacement « photo à compléter »** pour le fondateur.
+> 4. Partenaires, équipe, témoignages et résultats clients ne sont pas rendus. Aucun marquee.
+> 5. `lib/launch-scope.ts` est default-deny : `publicContactEnabled = false`; `publicCommercialOfferEnabled` reste piloté par `NEXT_PUBLIC_LOCAL_PRICING_REVIEW=true` en local/Preview uniquement. **Ne jamais contourner ce fichier** ni les garde-fous de build.
+> 6. Aucun formulaire, WhatsApp, e-mail, Calendly, demande de démo/devis, paiement ou promesse de traitement tant que des valeurs réelles et approuvées ne sont pas fournies.
+> 7. Chaque CTA interne passe par `lib/cta.ts` / la prop `source` de `Button.tsx`; `source` n'est jamais rendu comme attribut DOM.
+> 8. Motion et accessibilité : presets dans `config/motion.ts`, `prefers-reduced-motion` respecté, `aria-live` sur le moteur et la relance guidée, modale accessible, Lenis unique (`lerp: 0.055`, `wheelMultiplier: 0.82`).
 
 ## 1. Ton rôle
 
@@ -30,7 +43,7 @@ Tu travailles comme un professionnel livrant à un client exigeant : tu proposes
 |---|---|
 | Pages, navigation, sections, animations, défilement fluide | Backend, API, base de données |
 | Vidéos et images (emplacements) | Formulaire avec envoi de données, e-mail de notification |
-| Liens WhatsApp, e-mail, Calendly (quand fournis) | Création de compte, connexion, paiement |
+| Aucun canal public : WhatsApp/e-mail/Calendly masqués tant que non approuvés | Création de compte, connexion, authentification, paiement |
 | Bascule FR/EN et clair/sombre | Tableaux de bord et organisations réels |
 | Démos interactives en **données fictives** (état local) | Contrôle des quotas côté serveur |
 
@@ -50,6 +63,7 @@ En cas de contradiction, signaler le blocage et appliquer la règle la plus rest
 
 1. **Ne rien inventer** : ni chiffre, logo client, témoignage, partenariat, certification, coordonnée, nom, parcours, diplôme, ville.
 2. Information manquante → composant `ToComplete` (« À COMPLÉTER »). **Jamais de lien mort** : bouton masqué, ou renvoi vers `/contact`.
+   - Exception package 11/11 : jamais de `ToComplete` public pour le fondateur, un portrait, une identité ou un média non approuvé. Utiliser un fallback neutre ou ne pas rendre la section.
 3. Prix ou quota non confirmé → badge « À valider » (`status: 'toValidate'` dans `config/plans.ts`).
 4. Données de démonstration → toujours « Données fictives ». Scénarios chiffrés → toujours « Simulation illustrative, pas un résultat client », jamais appelés résultats, clients ou études de cas.
 5. Fonction non incluse dans une formule → visible, grisée, avec cadenas et formule requise. Jamais présentée comme active.
@@ -112,7 +126,7 @@ Utilise la **dernière version stable** de chaque outil et **vérifie la documen
 
 ### 6.1 Les 7 pages (PRD 6.2)
 
-Accueil `/` · Produit `/produit` (+ Modules, Moteur décisionnel, Démonstration) · Solutions `/solutions` · Tarifs `/tarifs` · Ressources `/ressources` (+ FAQ, Programme pilote) · À propos `/a-propos` · Contact `/contact`. Hors navigation : `/securite` et `/legal/[slug]`, liés **uniquement** depuis le pied de page. Toutes les routes existent sous `/fr` et `/en`.
+Accueil `/` · Produit `/produit` (+ Modules, Moteur décisionnel, Démonstration) · Solutions `/solutions` · Tarifs `/tarifs` · Ressources `/ressources` (+ FAQ, Programme pilote) · À propos `/a-propos` · Contact `/contact`. Hors navigation : `/securite` et `/legal/[slug]`, liés **uniquement** depuis le pied de page. Toutes les routes existent sous `/fr` et `/en`. Les routes d'authentification ont été retirées et doivent répondre 404.
 
 ### 6.2 Règles de structure
 
@@ -137,7 +151,7 @@ Accueil `/` · Produit `/produit` (+ Modules, Moteur décisionnel, Démonstratio
 
 ### 7.1 Principes
 
-- Le défilement lent est **réglable** via `NEXT_PUBLIC_SCROLL_PRESET` : `subtle` (`lerp: 0.10`, `wheelMultiplier: 1.0`), `marked` par défaut (`0.07`, `0.85`), `slow` (`0.05`, `0.75`), définis uniquement dans `config/motion.ts`. L'utilisateur garde la commande native de défilement; Lenis n'en lisse que l'inertie de la molette.
+- Le défilement lent est **réglable** via `NEXT_PUBLIC_SCROLL_PRESET` : `responsive` (`lerp: 0.10`, `wheelMultiplier: 1.0`), `balanced` par défaut (`0.055`, `0.82`), `slow` (`0.05`, `0.75`), définis uniquement dans `config/motion.ts`. L'utilisateur garde la commande native de défilement; Lenis n'en lisse que l'inertie de la molette.
 - Le défilement fluide ne remplace pas la lisibilité : un texte doit pouvoir être **lu en entier avant** d'être recouvert.
 - Si `prefers-reduced-motion: reduce` : **pas de Lenis**, pas d'animation de révélation (contenu visible immédiatement).
 - Écrans tactiles : défilement natif (comportement par défaut de Lenis).
@@ -148,15 +162,15 @@ Accueil `/` · Produit `/produit` (+ Modules, Moteur décisionnel, Démonstratio
 
 ```ts
 export const scrollPresets = {
-  subtle: { lerp: 0.10, wheelMultiplier: 1.0 },
-  marked: { lerp: 0.07, wheelMultiplier: 0.85 },
+  responsive: { lerp: 0.10, wheelMultiplier: 1.0 },
+  balanced: { lerp: 0.055, wheelMultiplier: 0.82 },
   slow: { lerp: 0.05, wheelMultiplier: 0.75 },
 } as const;
 export type ScrollPreset = keyof typeof scrollPresets;
-export const DEFAULT_SCROLL_PRESET: ScrollPreset = 'marked';
+export const DEFAULT_SCROLL_PRESET: ScrollPreset = 'balanced';
 
 export const motionConfig = {
-  scroll: scrollPresets[process.env.NEXT_PUBLIC_SCROLL_PRESET as ScrollPreset] ?? scrollPresets.marked,
+  scroll: scrollPresets[process.env.NEXT_PUBLIC_SCROLL_PRESET as ScrollPreset] ?? scrollPresets.balanced,
   reveal: {
     duration: 0.7,                 // secondes
     stagger: 0.08,                 // entre éléments d'un même groupe
@@ -269,7 +283,7 @@ Les vidéos de présentation et les images fortes existent déjà et seront four
 - **Hébergement** : vidéos **hors du dépôt Git** (hébergeur à décider : À COMPLÉTER). Images optimisées dans `public/media/`.
 - **Images** : `next/image`, `sizes` renseignés, `priority` uniquement pour l'image du hero, **texte alternatif FR/EN obligatoire**.
 - **Média absent** : cadre pointillé « Vidéo à fournir » / « Image à fournir » en préproduction ; les médias **optionnels** (vidéo Tarifs, vidéo fondateur) sont masqués en production, les **obligatoires** font échouer le garde-fou.
-- **Emplacements** : Accueil sous le hero (récapitulatif) · Produit en tête (détaillée) · Tarifs en bas (courte) · À propos (fondateur, si fournie) · hero et séparateurs · une image par profil dans Solutions.
+- **Emplacements** : Accueil sous le hero (récapitulatif) · Produit en tête (détaillée) · Tarifs en bas (courte) · hero et séparateurs · une image par profil dans Solutions. Le portrait/vidéo du fondateur est exclu tant qu'aucune identité approuvée n'existe.
 
 ## 9. Méthode de travail pour chaque étape
 
