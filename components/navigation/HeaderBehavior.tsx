@@ -7,6 +7,7 @@ import { ArrowRight, Menu } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import { navCta } from '@/config/nav';
+import { withSource } from '@/lib/cta';
 import { Brand } from './Brand';
 import { NavPill } from './NavPill';
 import { LangSwitch } from './LangSwitch';
@@ -104,12 +105,12 @@ export function HeaderBehavior() {
             <Brand />
             <div className="site-header__desktop"><NavPill /></div>
             <div className="site-header__actions">
-              <Link className="header-cta" href={navCta.href}><span>{t(navCta.key)}</span><span className="header-cta__arrow" aria-hidden="true"><ArrowRight size={17} /></span></Link>
+              <Link className="header-cta" href={withSource(navCta.href, 'header')}><span>{t(navCta.key)}</span><span className="header-cta__arrow" aria-hidden="true"><ArrowRight size={17} /></span></Link>
               <LangSwitch />
               <ThemeToggle />
             </div>
             <div className="site-header__mobile-actions">
-              <Link className="header-cta header-cta--compact" href={navCta.mobileHref}><span>{t('discoverFreeShort')}</span><span className="header-cta__arrow" aria-hidden="true"><ArrowRight size={15} /></span></Link>
+              <Link className="header-cta header-cta--compact" href={withSource(navCta.mobileHref, 'header-mobile')}><span>{t('discoverFreeShort')}</span><span className="header-cta__arrow" aria-hidden="true"><ArrowRight size={15} /></span></Link>
               <button ref={menuTriggerRef} type="button" className="header-menu-button" aria-label={t('menuOpen')} aria-expanded={mobileOpen} aria-controls="mobile-menu" onClick={() => setMobileOpen(true)}><Menu aria-hidden="true" /></button>
             </div>
           </m.div>}

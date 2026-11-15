@@ -10,8 +10,8 @@ export function FinalCta() {
       <div className="home-final-cta__card">
         <p>{t('pilotOffer')}</p>
         <div>
-          <Button href="/produit">{t('pilotCta')}</Button>
-          <Button href="/produit/demonstration" variant="secondary">{t('freeCta')}</Button>
+          <Button href="/produit" source="final-cta">{t('pilotCta')}</Button>
+          <Button href="/produit/demonstration" variant="secondary" source="final-cta">{t('freeCta')}</Button>
         </div>
       </div>
     </Reveal>

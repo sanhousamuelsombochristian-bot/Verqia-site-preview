@@ -20,14 +20,26 @@ describe('i18n — current conceptual-scope copy', () => {
   });
 
   it('provides the new interactive labels from both dictionaries', () => {
-    const frCopy = fr as { home: { heroRotate: Record<string, string> }; decisionEngine: { demo: Record<string, string> }; faqPage: { filters: Record<string, string> }; pilotPage: Record<string, string> };
+    const frCopy = fr as {
+      home: { heroRotate: { prefix: string; screenReaderSummary: string; words: Record<string, string> } };
+      decisionEngine: { demo: Record<string, string> };
+      faqPage: { filters: Record<string, string> };
+      pilotPage: Record<string, string>;
+      demoPage: { guidedRelance: { bubbles: unknown[]; replay: string } };
+      solutionsPage: { cta: string };
+    };
     const enCopy = en as typeof frCopy;
     for (const messages of [frCopy, enCopy]) {
       expect(messages.home.heroRotate.prefix).not.toHaveLength(0);
       expect(messages.home.heroRotate.screenReaderSummary).not.toHaveLength(0);
+      expect(Object.keys(messages.home.heroRotate.words)).toEqual(['centralize', 'prioritize', 'followUp', 'track']);
       expect(messages.decisionEngine.demo.analyzing).not.toHaveLength(0);
       expect(messages.faqPage.filters.all).not.toHaveLength(0);
       expect(messages.pilotPage.stepperLabel).not.toHaveLength(0);
+      expect(messages.pilotPage.tabsLabel).not.toHaveLength(0);
+      expect(messages.demoPage.guidedRelance.bubbles).toHaveLength(4);
+      expect(messages.demoPage.guidedRelance.replay).not.toHaveLength(0);
+      expect(messages.solutionsPage.cta).not.toHaveLength(0);
     }
   });
 });

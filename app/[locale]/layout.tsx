@@ -17,7 +17,6 @@ import { Header, Footer } from '@/components/navigation';
 import { routing } from '@/i18n/routing';
 import { indexingEnabled } from '@/lib/indexing';
 import '@/styles/globals.css';
-import '@/styles/auth.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
 const instrument = Instrument_Serif({ subsets: ['latin'], weight: '400', style: ['normal', 'italic'], variable: '--font-instrument', display: 'swap' });

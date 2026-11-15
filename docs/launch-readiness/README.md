@@ -12,6 +12,7 @@ This folder is the evidence register for the launch-readiness programme. The ini
 6. `UV-01-UV-02-UV-05-INFORMATION-REGISTER.md` and `PHASE-1-LEGAL-REVIEW-PACKET.md` — factual/legal evidence inputs.
 7. `PHASE-2-COMMERCIAL-VALIDATION-REGISTER.md`, `PHASE-4-LOCAL-TECHNICAL-EVIDENCE.md` and `PHASE-5-PREPRODUCTION-EVIDENCE-PLAN.md` — current continuation proof and future-gate plans.
 8. Phase 1–5 core files — closure criteria and future deliverables.
+9. `PACKAGE-11-11-IMPLEMENTATION-EVIDENCE.md` and `../PRD-11-11-IMPLEMENTATION-ADDENDUM.md` — package 11/11 implementation proof, decisions and remaining Production blockers.
 
 ## Non-negotiable controls
 

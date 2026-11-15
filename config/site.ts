@@ -33,8 +33,4 @@ export const site = {
   logoWordmarkPath: nullable(process.env.NEXT_PUBLIC_LOGO_WORDMARK_PATH) ?? '/media/brand/verqia-wordmark-lime.png',
   logoOnyxPath: nullable(process.env.NEXT_PUBLIC_LOGO_ONYX_PATH),
   logoRoundIconPath: nullable(process.env.NEXT_PUBLIC_LOGO_ROUND_ICON_PATH),
-  // Approved founder identity and portrait; deployments can replace the path/name through public environment variables.
-  founderName: nullable(process.env.NEXT_PUBLIC_FOUNDER_NAME) ?? 'SANHOU Sombo Christian Samuel',
-  founderPhotoPath: nullable(process.env.NEXT_PUBLIC_FOUNDER_PHOTO) ?? '/media/about/founder-sanhou-sombo-christian-samuel.webp',
-  signupUrl: nullable(process.env.NEXT_PUBLIC_SIGNUP_URL),
 } as const;

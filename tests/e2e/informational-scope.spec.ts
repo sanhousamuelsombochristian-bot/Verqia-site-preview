@@ -5,13 +5,11 @@ const locales = [
     code: 'fr',
     contact: 'Aucun canal de contact direct n’est publié sur ce site.',
     pricing: 'Aucune formule commerciale n’est publiée',
-    access: 'Accès utilisateur non disponible',
   },
   {
     code: 'en',
     contact: 'No direct contact channel is published on this site.',
     pricing: 'No commercial plan is published',
-    access: 'User access is not available',
   },
 ] as const;
 
@@ -28,10 +26,10 @@ for (const locale of locales) {
     await expect(page.getByRole('heading', { name: locale.pricing })).toBeVisible();
     await expect(page.locator('.pricing-card, .pricing-comparison, .pricing-contact-cta')).toHaveCount(0);
 
-    await page.goto(`/${locale.code}/connexion`);
-    await expect(page.getByRole('heading', { name: locale.access })).toBeVisible();
+    for (const route of ['connexion', 'inscription', 'mot-de-passe-oublie', 'reinitialiser-mot-de-passe']) {
+      expect((await page.goto(`/${locale.code}/${route}`))?.status()).toBe(404);
+    }
     await expect(page.locator('form')).toHaveCount(0);
-    await expect(page.getByText(/Google|Microsoft/)).toHaveCount(0);
   });
 }
 

@@ -64,7 +64,6 @@ export const media = {
     captionsEn: nullable(process.env.NEXT_PUBLIC_MEDIA_PRODUCT_DETAIL_CAPTIONS_EN),
   } satisfies VideoAsset,
   pricingShort: video(process.env.NEXT_PUBLIC_MEDIA_PRICING_SHORT_SRC, process.env.NEXT_PUBLIC_MEDIA_PRICING_SHORT_POSTER, process.env.NEXT_PUBLIC_MEDIA_PRICING_SHORT_CAPTIONS_FR, process.env.NEXT_PUBLIC_MEDIA_PRICING_SHORT_CAPTIONS_EN),
-  founder: video(process.env.NEXT_PUBLIC_MEDIA_FOUNDER_SRC, process.env.NEXT_PUBLIC_MEDIA_FOUNDER_POSTER, process.env.NEXT_PUBLIC_MEDIA_FOUNDER_CAPTIONS_FR, process.env.NEXT_PUBLIC_MEDIA_FOUNDER_CAPTIONS_EN),
   heroImage: image(process.env.NEXT_PUBLIC_MEDIA_HERO_IMAGE_SRC, { fr: 'Tableau de bord de démonstration VERQIA', en: 'VERQIA demonstration dashboard' }),
   dividers: [] as ImageAsset[],
   audiences: {

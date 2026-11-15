@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { buildCalendlyHref, buildEmailHref, buildWhatsAppHref } from '../components/sections/contact-links';
+import { publicCommercialOfferEnabled, publicContactEnabled } from '../lib/launch-scope';
 
 const source = 'pricing & pilot';
 
@@ -32,5 +33,10 @@ describe('contact outbound links', () => {
     expect(buildWhatsAppHref('not-a-number', 'Hello', null, null)).toBeNull();
     expect(buildEmailHref('not-an-email', 'Subject', 'Body', null)).toBeNull();
     expect(buildCalendlyHref('http://calendly.com/example', null)).toBeNull();
+  });
+
+  it('keeps public contact channels and commercial offers disabled', () => {
+    expect(publicContactEnabled).toBe(false);
+    expect(publicCommercialOfferEnabled).toBe(false);
   });
 });
